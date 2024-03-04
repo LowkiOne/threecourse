@@ -1,0 +1,63 @@
+body {
+    background: linear-gradient(rgb(200, 200, 200), rgb(76, 56, 76));
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 900px;
+}
+
+main div {
+    display: flex;
+    justify-content: center;
+    margin: 0 20px;
+    flex-wrap: wrap;
+    background-color: darkgray;
+    border-radius: 5px;
+}
+
+main section {
+    justify-content: center;
+    align-items: center;
+}
+
+#chooise {
+    display: flex;
+    flex-direction: column;
+}
+
+#starterCourse,
+#dinnerCourse,
+#dessertCourse {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 100px;
+    margin: 2px 0;
+}
+
+#selectedRecipes {
+    display: flex;
+    flex-direction: column;
+}
+
+#selectedRecipes div {
+    margin: 5px 0;
+    flex-direction: column;
+    background-color: antiquewhite;
+}

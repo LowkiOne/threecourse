@@ -1,0 +1,288 @@
+{
+    "starter":[
+        {
+            "id": 1,
+            "image": "url",
+            "name": "Dips with Pita",
+            "ingredients": [
+                {
+                    "id": 1, 
+                    "quantity": "5,5 dl"
+                },
+                {
+                    "id": 2,
+                    "quantity": "2 dl"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "image": "url",
+            "name": "Dips with sticks",
+            "ingredients": [
+                {
+                    "id": 3, 
+                    "quantity": "10 dl"
+                },
+                {
+                    "id": 4,
+                    "quantity": "3 dl"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "image": "url",
+            "name": "Grilled vegetable antipasti",
+            "ingredients": [
+                {
+                    "id": 1, 
+                    "quantity": "1232 dl"
+                },
+                {
+                    "id": 2,
+                    "quantity": "221312 dl"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "image": "url",
+            "name": "Sweet potato tikki",
+            "ingredients": [
+                {
+                    "id": 1, 
+                    "quantity": "21323 dl"
+                },
+                {
+                    "id": 2,
+                    "quantity": "212332 dl"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "image": "url",
+            "name": "Nanami gyoza",
+            "ingredients": [
+                {
+                    "id": 1, 
+                    "quantity": "4214314 dl"
+                },
+                {
+                    "id": 2,
+                    "quantity": "256546 dl"
+                }
+            ]
+        }
+    ],
+    "dinner":[
+        {
+            "id": 1,
+            "image": "url",
+            "name": "Spaghetti",
+            "ingredients": [
+                {
+                    "id": 1, 
+                    "quantity": "57547 dl"
+                },
+                {
+                    "id": 2,
+                    "quantity": "2745747 dl"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "image": "url",
+            "name": "Rice",
+            "ingredients": [
+                {
+                    "id": 1, 
+                    "quantity": "7577 dl"
+                },
+                {
+                    "id": 2,
+                    "quantity": "275757 dl"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "image": "url",
+            "name": "Potatos",
+            "ingredients": [
+                {
+                    "id": 1, 
+                    "quantity": "75757 dl"
+                },
+                {
+                    "id": 2,
+                    "quantity": "8979 dl"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "image": "url",
+            "name": "Roasted root vegetables",
+            "ingredients": [
+                {
+                    "id": 1, 
+                    "quantity": "97987 dl"
+                },
+                {
+                    "id": 2,
+                    "quantity": "97969 dl"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "image": "url",
+            "name": "Bulgur",
+            "ingredients": [
+                {
+                    "id": 1, 
+                    "quantity": "76967967 dl"
+                },
+                {
+                    "id": 2,
+                    "quantity": "769679 dl"
+                }
+            ]
+        }
+    ],
+    "dessert":[
+        {
+            "id": 1,
+            "image": "url",
+            "name": "Cheesecake",
+            "ingredients": [
+                {
+                    "id": 1, 
+                    "quantity": "532424156 dl"
+                },
+                {
+                    "id": 2,
+                    "quantity": "6345435 dl"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "image": "url",
+            "name": "Sticky chocolate cake",
+            "ingredients": [
+                {
+                    "id": 1, 
+                    "quantity": "4356346 dl"
+                },
+                {
+                    "id": 2,
+                    "quantity": "6436346 dl"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "image": "url",
+            "name": "Brownies",
+            "ingredients": [
+                {
+                    "id": 1, 
+                    "quantity": "6436465 dl"
+                },
+                {
+                    "id": 2,
+                    "quantity": "6464646 dl"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "image": "url",
+            "name": "Apple Pie",
+            "ingredients": [
+                {
+                    "id": 1, 
+                    "quantity": "63899 dl"
+                },
+                {
+                    "id": 2,
+                    "quantity": "9987821 dl"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "image": "url",
+            "name": "Banoffee pies",
+            "ingredients": [
+                {
+                    "id": 1, 
+                    "quantity": "141244 dl"
+                },
+                {
+                    "id": 2,
+                    "quantity": "6467547 dl"
+                }
+            ]
+        }
+    ],
+    
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Flour"
+        },
+        {
+            "id": 2,
+            "name": "Water"
+        },
+        {
+            "id": 3,
+            "name": "Salt"
+        },
+        {
+            "id": 4,
+            "name": "Olive oil"
+        },
+        {
+            "id": 5,
+            "name": "Sugar"
+        },
+        {
+            "id": 6,
+            "name": "yeast"
+        },
+        {
+            "id": 7,
+            "name": "Flour"
+        },
+        {
+            "id": 8,
+            "name": "Flour"
+        },
+        {
+            "id": 9,
+            "name": "Flour"
+        },
+        {
+            "id": 10,
+            "name": "Flour"
+        },
+        {
+            "id": 11,
+            "name": "Flour"
+        },
+        {
+            "id": 12,
+            "name": "Flour"
+        },
+        {
+            "id": 13,
+            "name": "Flour"
+        }
+    ]
+}

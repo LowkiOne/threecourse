@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Course</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Three-course Recipes</h1>
+    </header>
+    <main id="app">
+        <section id="chooise">
+            <h2>Choose</h2>
+            <p>Make your own combination of ten different
+                starters, dinners and desserts.</p>
+        </section>
+        <div>
+            <section id="starterCourse">
+                <h3>Starters</h3>
+                <span v-if="currentStarter" :key="currentStarter.id">{{ currentStarter.name }}</span>
+                <div>
+                    <button @click="prev('starter')">Previous</button>
+                    <button @click="next('starter')">Next</button>
+                </div>
+            </section>
+            <section id="dinnerCourse">
+                <h3>Main Dinners</h3>
+                <span v-if="currentDinner" :key="currentDinner.id">{{ currentDinner.name }}</span>
+                <div>
+                    <button @click="prev('dinner')">Previous</button>
+                    <button @click="next('dinner')">Next</button>
+                </div>
+            </section>
+            <section id="dessertCourse">
+                <h3>Desserts</h3>
+                <span v-if="currentDessert" :key="currentDessert.id">{{ currentDessert.name }}</span>
+                <div>
+                    <button @click="prev('dessert')">Previous</button>
+                    <button @click="next('dessert')">Next</button>
+                </div>
+            </section>
+        </div>
+        <div>
+            <button @click="recipesbtn">Go to recipes</button>
+        </div>
+    
+        <section id="selectedRecipes">
+            <h2>Selected Recipes</h2>
+            <div v-if="selectedRecipes.starter">
+                <h3>Starter</h3>
+                <h4>{{ selectedRecipes.starter.name }}</h4>
+                <ul>
+                    <li v-for="ingredient in selectedRecipes.starter.ingredients" :key="ingredient.id">
+                        {{ findIngredientById(ingredient.id) }} {{ ingredient.quantity }}
+                    </li>
+                </ul>
+            </div>
+            <div v-if="selectedRecipes.dinner">
+                <h3>Dinner</h3>
+                <h4>{{ selectedRecipes.dinner.name }}</h4>
+                <ul>
+                    <li v-for="(ingredient, index) in selectedRecipes.dinner.ingredients" :key="index">
+                        {{ ingredient.name }} {{ ingredient.quantity }}
+                    </li>
+                </ul>
+            </div>
+            <div v-if="selectedRecipes.dessert">
+                <h3>Dessert</h3>
+                <h4>{{ selectedRecipes.dessert.name }}</h4>
+                <ul>
+                    <li v-for="(ingredient, index) in selectedRecipes.dessert.ingredients" :key="index">
+                        {{ ingredient.name }} {{ ingredient.quantity }}
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="threecourse.js"></script>
+</body>
+
+</html>
