@@ -15,7 +15,7 @@ const app = Vue.createApp({
                 starter: null,
                 dinner: null,
                 dessert: null,
-                shoppingList: null
+                //shoppingList: null
             },
             ingredients: []
         };
@@ -30,8 +30,8 @@ const app = Vue.createApp({
         currentDessert() {
             return this.threeCourse.dessert[this.currentIndex.dessert];
         },
-        currentShoppingList() {
-            return [this.currentStarter, this.currentDinner, this.currentDessert].flatMap(recipe => recipe ? recipe.recipe : []).map(ingredient => ({ ...ingredient }));
+         currentShoppingList() {
+             return [this.currentStarter, this.currentDinner, this.currentDessert].flatMap(recipe => recipe ? recipe.recipe : []).map(ingredient => ({ ...ingredient }));
         }
     },
     methods: {
@@ -50,13 +50,19 @@ const app = Vue.createApp({
             };
         },
         getIngredients(id) {
-            let ingredient;
             for (let i = 0; i < this.ingredients.length; i++) {
                 if (this.ingredients[i].id === id) {
-                    return ingredient = this.ingredients[i];
+                    return this.ingredients[i];
                 }
             }
         },
+         getShoppingList(ids) {
+            for (let i = 0; i < this.ingredients.length; i++) {
+                if (this.ingredients[i].id === id) {
+                    return this.ingredients[i];
+                }
+            }
+         }
     },
     mounted() {
         fetch('data.json')

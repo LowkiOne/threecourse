@@ -1,892 +1,891 @@
 {
-  "starter":[
-      {
-          "id": 1,
-          "image": "/images/brusch-tomato.jpg",
-          "name": "Bruschetta",
-          "ingredients": [
-              {
-                  "id": 3, 
-                  "quantity": "1/2 tsp"
-              },
-              {
-                  "id": 7,
-                  "quantity": "2 tsp"
-              },
-              {
-                  "id": 11, 
-                  "quantity": "1 pinch"
-              },
-              {
-                  "id": 27,
-                  "quantity": "2"
-              },
-              {
-                  "id": 26, 
-                  "quantity": "2 tsp"
-              },
-              {
-                  "id": 29,
+    "starter":[
+        {
+            "id": 1,
+            "image": "/images/brusch-tomato.jpg",
+            "name": "Bruschetta",
+            "recipe": [
+                {
+                    "i_id": 3, 
+                    "quantity": "1/2 tsp"
+                },
+                {
+                    "i_id": 7,
+                    "quantity": "2 tsp"
+                },
+                {
+                    "i_id": 11, 
+                    "quantity": "1 pinch"
+                },
+                {
+                    "i_id": 27,
+                    "quantity": "2"
+                },
+                {
+                    "i_id": 26, 
+                    "quantity": "2 tsp"
+                },
+                {
+                    "i_id": 29,
+                    "quantity": "4"
+                },
+                {
+                    "i_id": 33, 
+                    "quantity": "15 g"
+                },
+                {
+                    "i_id": 35, 
+                    "quantity": "1"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "image": "/images/broccolipaj.jpg",
+            "name": "Broccoli pie",
+            "recipe": [
+                {
+                  "i_id": 1,
+                  "name": "1/2 dl"   
+                },
+                {
+                    "i_id": 3, 
+                    "quantity": "1 tsp"
+                },
+                {
+                    "i_id": 4,
+                    "quantity": "3 cup"
+                },
+                {
+                    "i_id": 7,
+                    "quantity": "125 g"
+                },
+                {
+                  "i_id": 8,
                   "quantity": "4"
-              },
-              {
-                  "id": 33, 
-                  "quantity": "15 g"
-              },
-              {
-                  "id": 35, 
-                  "quantity": "1"
-              }
-          ]
-      },
-      {
-          "id": 2,
-          "image": "/images/broccolipaj.jpg",
-          "name": "Broccoli pie",
-          "ingredients": [
-              {
-                "id": 1,
-                "name": "1/2 dl"   
-              },
-              {
-                  "id": 3, 
-                  "quantity": "1 tsp"
-              },
-              {
-                  "id": 4,
-                  "quantity": "3 cup"
-              },
-              {
-                  "id": 7,
-                  "quantity": "125 g"
-              },
-              {
-                "id": 8,
-                "quantity": "4"
-              },
-              {
-                "id": 9,
-                "quantity": "1 dl"
-              },
-              {
-                "id": 10,
-                "quantity": "2 1/2 cup"
-              },
-              {
-                "id": 11,
-                "quantity": "2 tsp"
-              },
-              {
-                "id": 12,
-                "quantity": "1 cup"
-              },
-              {
-                "id": 13,
-                "name": "150 g"
-              }
-          ]
-      },
-      {
-          "id": 3,
-          "image": "/images/spring-rolls.jpg",
-          "name": "Spring rolls with peanut dip",
-          "ingredients": [
-              {
-                  "id": 2,
-                  "quantity": "1 cup "
-              },
-              {
-                  "id": 15,
-                  "name": "1/2 cup"
-              },
-              {
-                  "id": 16,
-                  "name": "1/2 cup"
-              },
-              {
-                  "id": 13,
-                  "name": "3 tbsp"
-              },
-              {
-                  "id": 18,
-                  "name": "230 g"
-              },
-              {
-                "id": 19,
-                "name": "2"
-              },
-              {
-                  "id": 20,
-                  "name": "2"
-              },
-              {
-                  "id": 21,
-                  "name": "125 g"
-              },
-              {
-                  "id": 22,
-                  "name": "180 g"
-              },
-              {
-                  "id": 23,
-                  "name": "20 g"
-              }
-          ]
-      },
-      {
-          "id": 4,
-          "image": "/images/brusch-mushroom.jpg",
-          "name": "Mushroom bruschetta",
-          "ingredients": [
-              {
-                  "id": 3, 
-                  "quantity": "1/2 tsp"
-              },
-              {
-                  "id": 4,
+                },
+                {
+                  "i_id": 9,
+                  "quantity": "1 dl"
+                },
+                {
+                  "i_id": 10,
+                  "quantity": "2 1/2 cup"
+                },
+                {
+                  "i_id": 11,
                   "quantity": "2 tsp"
-              },
-              {
-                  "id": 7, 
-                  "quantity": "1 tbsp"
-              },
-              {
-                  "id": 11,
-                  "quantity": "1 pinch"
-              },
-              {
-                  "id": 13, 
+                },
+                {
+                  "i_id": 12,
                   "quantity": "1 cup"
-              },
-              {
-                  "id": 36,
-                  "quantity": "300 g"          
-              },
-              {
-                  "id": 37,
-                  "quantity": "20"
-              },
-              {
-                  "id": 38,
-                  "quantity": "1/2 cup"
-              },
-              {
-                  "id": 39,
-                  "quantity": "1"
-              }
-          ]
-      },
-      {
-          "id": 5,
-          "image": "/images/gyoza.jpg",
-          "name": "Nanami gyoza",
-          "ingredients": [
-              {
-                  "id": 3, 
-                  "quantity": "1 tsp"
-              },
-              {
-                  "id": 21,
-                  "quantity": "3"
-              },
-              {
-                  "id": 27,
-                  "quantity": "1"
-              },
-              {
-                  "id": 31,
-                  "quantity": "1 tsp"
-              },
-              {
-                  "id": 42,
-                  "quantity": "1 tsp"
-              },
-              {
-                  "id": 45,
-                  "quantity": "50 g"
-              },
-              {
-                  "id": 46,
-                  "quantity": "50 g"
-              },
-              {
-                  "id": 47,
-                  "quantity": "500 g"
-              },
-              {
-                  "id": 48,
-                  "quantity": "1 tsp"
-              },
-              {
-                  "id": 49,
-                  "quantity": "1 tsp"
-              }
-
-          ]
-      }
-  ],
-  "dinner":[
-      {
-          "id": 1,
-          "image": "/images/lasagna-soup.jpg",
-          "name": "Lasagna soup",
-          "ingredients": [
-              {
-                "id": 2, 
-                "quantity": "5 cup"
-              },
-              {
-                "id": 3,
-                "quantity": "2 tsp"
-              },
-              {
-                "id": 11, 
-                "quantity": "2 tsp"
-              },
-              {
-                "id": 13,
-                "quantity": "2 cup"
-              },
-              {
-                "id": 26, 
-                "quantity": "2 tsp"
-              },
-              {
-                "id": 27,
-                "quantity": "2"          
-              },
-              {
-                "id": 28,
-                "quantity": "500 g"
-              },
-              {
-                "id": 30,
-                "quantity": "1"          
-              },
-              {
-                "id": 31,
-                "quantity": "1 tsp"
-              },
-              {
-                "id": 32,
-                "quantity": "250 g"
-              },
-              {
-                "id": 34,
-                "quantity": "500 g"
-              }
-      ]
-          
-      },
-      {
-        "id": 4,
-        "image": "/images/schnitzel.jpg",
-        "name": "Schnitzel",
-        "ingredients": [
-              {
-                "id": 1, 
-                "quantity": "1 cup"
-              },
-              {
-                "id": 3,
-                "quantity": "2 tsp"
-              },
-              {
-                "id": 8, 
-                "quantity": "2"
-              },
-              {
-                "id": 11,
-                "quantity": "1 pinch"
-              },
-              {
-                "id": 24, 
-                "quantity": "500 g"
-              },
-              {
-                "id": 25,
-                "quantity": "panko "          
-              },
-              {
-                "id": 26,
-                "quantity": "2 cup"
-              }
-        ]
-      },
-      {
-          "id": 3,
-          "image": "/images/pizza.jpg",
-          "name": "Pizza Margherita",
-          "ingredients": [
-              {
-                  "id": 1, 
-                  "quantity": "12 cup"
-              },
-              {
-                  "id": 2,
-                  "quantity": "2 tsp"
-              } ,
-              {
-                  "id": 3, 
-                  "quantity": "2 tsp"
-              },
-              {
-                  "id": 4,
-                  "quantity": "1 tbsp"
-              },
-              {
-                  "id": 26, 
-                  "quantity": "1/2 cup"
-              },
-              {
-                  "id": 40,
-                  "quantity": "50 g"
-              },
-              {
-                  "id": 41, 
-                  "quantity": "7300 g"
-              },
-              {
-                  "id": 42,
-                  "quantity": "2 pinch"
-              },
-              {
-                  "id": 44,
-                  "quantity": "1"
-              }
-
-          ]
-      },
-      {
-          "id": 4,
-          "image": "/images/potatoes-saosage.jpg",
-          "name": "Sweet potatoes with sausage",
-          "ingredients": [
-              {
-                  "id": 4, 
-                  "quantity": "3 tsp"
-              },
-              {
-                  "id": 19,
-                  "quantity": "2"
-              },
-              {
-                  "id": 27,
-                  "quantity": "3"
-              },
-              {
-                  "id": 39,
-                  "quantity": "1/2 cup"
-              },
-              {
-                  "id": 50,
-                  "quantity": "900 g"
-              },
-              {
-                  "id": 51,
-                  "quantity": "1"
-              },
-              {
-                  "id": 52,
-                  "quantity": "2"
-              },
-              {
-                  "id": 53,
-                  "quantity": "400 g"
-              },
-              {
-                  "id": 54,
-                  "quantity": "800 g"
-              }
-          ]
-      },
-      {
-          "id": 5,
-          "image": "/images/fries_rice.jpg",
-          "name": "Fried rice",
-          "ingredients": [
-              {
-                  "id": 8, 
-                  "quantity": "2"
-              },
-              {
-                  "id": 19, 
-                  "quantity": "1"
-              },
-              {
-                  "id": 26,
-                  "quantity": "2 tbsp"
-              },
-              {
-                  "id": 27,
-                  "quantity": "3"
-              },
-              {
-                  "id": 31,
-                  "quantity": "1 tsp"
-              },
-              {
-                  "id": 43,
+                },
+                {
+                  "i_id": 13,
                   "quantity": "150 g"
-              },
-              {
-                  "id": 52,
-                  "quantity": "1"
-              },
-              {
-                  "id": 55,
-                  "quantity": "3 cup"
-              }
-              
-          ]
-      }
-  ],
-  "dessert":[
-      {
-          "id": 1,
-          "image": "/images/cheesecake.jpg",
-          "name": "Cheesecake",
-          "ingredients": [
-              {
-                  "id": 5, 
-                  "quantity": "1/2 cup"
-              },
-              {
-                  "id": 8,
-                  "quantity": "3"
-              } ,
-              {
-                  "id": 7,
-                  "quantity": "75 g"
-              },
-              {
-                  "id": 56,
-                  "quantity": "15"
-              },
-              {
-                  "id": 57,
-                  "quantity": "1 pinch"
-              },
-              {
-                  "id": 58,
-                  "quantity": "400 g"
-              },
-              {
-                  "id": 59,
-                  "quantity": "2 cup"
-              }
-          ]
-      },
-      {
-          "id": 2,
-          "image": "/images/chocoloate-cake.jpg",
-          "name": "Sticky chocolate cake",
-          "ingredients": [
-              {
-                  "id": 1, 
-                  "quantity": "2 cup"
-              },
-              {
-                  "id": 3,
-                  "quantity": "1 tsp"
-              },
-              {
-                  "id": 7,
-                  "quantity": "100 g"
-              },
-              {
-                  "id": 8,
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "image": "/images/spring-rolls.jpg",
+            "name": "Spring rolls with peanut dip",
+            "recipe": [
+                {
+                    "i_id": 2,
+                    "quantity": "1 cup "
+                },
+                {
+                    "i_id": 15,
+                    "quantity": "1/2 cup"
+                },
+                {
+                    "i_id": 16,
+                    "quantity": "1/2 cup"
+                },
+                {
+                    "i_id": 13,
+                    "quantity": "3 tbsp"
+                },
+                {
+                    "i_id": 18,
+                    "quantity": "230 g"
+                },
+                {
+                  "i_id": 19,
                   "quantity": "2"
-              },
-              {
-                  "id": 43,
-                  "quantity": "3 cup"
-              },
-              {
-                  "id": 60,
-                  "quantity": "3 tbsp"
-              },
-              {
-                  "id": 61,
-                  "quantity": "3 tsp"
-              },
-              {
-                  "id": 62,
-                  "quantity": "3 tbsp"
-              }
-              
-          ]
-      },
-      {
-          "id": 3,
-          "image": "/images/brownies.jpg",
-          "name": "Brownies",
-          "ingredients": [
-              {
-                  "id": 1, 
-                  "quantity": "3 cup"
-              },
-              {
-                  "id": 3,
-                  "quantity": "1 pinch"
-              },
-              {
-                  "id": 7,
-                  "quantity": "200 g"
-              },
-              {
-                  "id": 8,
-                  "quantity": "3"
-              },
-              {
-                  "id": 41,
-                  "quantity": "3 cup"
-              },
-              {
-                  "id": 61,
-                  "quantity": "2 tsp"
-              },
-              {
-                  "id": 62,
-                  "quantity": "1 cup"
-              },
-              {
-                  "id": 63,
-                  "quantity": "100 g"
-              },
-              {
-                  "id": 64,
-                  "quantity": "1/2 tsp"
-              }
-          ]
-      },
-      {
-          "id": 4,
-          "image": "/images/coconut-passion-ice-cream.jpg",
-          "name": "Coconut with passion fruit and ice cream",
-          "ingredients": [
-              {
-                  "id": 5, 
-                  "quantity": "3 tbsp"
-              },
-              {
-                  "id": 7,
-                  "quantity": "3 tbsp"
-              },
-              {
-                  "id": 67,
-                  "quantity": "2 cup"
-              },
-              {
-                  "id": 68,
-                  "quantity": "2"
-              },
-              {
-                  "id": 69,
-                  "quantity": "1/2 l "
-              }
-          ]
-      },
-      {
-          "id": 5,
-          "image": "/images/chocolate-dessert.jpg",
-          "name": "Chocolate dessert",
-          "ingredients": [
-              {
-                  "id": 59, 
-                  "quantity": "3 cup"
-              },
-              {
-                  "id": 65,
-                  "quantity": "150 g"
-              },
-              {
-                  "id": 66,
-                  "quantity": "3 cup"
-              }
-          ]
-      }
-  ],
+                },
+                {
+                    "i_id": 20,
+                    "quantity": "2"
+                },
+                {
+                    "i_id": 21,
+                    "quantity": "125 g"
+                },
+                {
+                    "i_id": 22,
+                    "quantity": "180 g"
+                },
+                {
+                    "i_id": 23,
+                    "quantity": "20 g"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "image": "/images/brusch-mushroom.jpg",
+            "name": "Mushroom bruschetta",
+            "recipe": [
+                {
+                    "i_id": 3, 
+                    "quantity": "1/2 tsp"
+                },
+                {
+                    "i_id": 4,
+                    "quantity": "2 tsp"
+                },
+                {
+                    "i_id": 7, 
+                    "quantity": "1 tbsp"
+                },
+                {
+                    "i_id": 11,
+                    "quantity": "1 pinch"
+                },
+                {
+                    "i_id": 13, 
+                    "quantity": "1 cup"
+                },
+                {
+                    "i_id": 36,
+                    "quantity": "300 g"          
+                },
+                {
+                    "i_id": 37,
+                    "quantity": "20"
+                },
+                {
+                    "i_id": 38,
+                    "quantity": "1/2 cup"
+                },
+                {
+                    "i_id": 39,
+                    "quantity": "1"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "image": "/images/gyoza.jpg",
+            "name": "Nanami gyoza",
+            "recipe": [
+                {
+                    "i_id": 3, 
+                    "quantity": "1 tsp"
+                },
+                {
+                    "i_id": 21,
+                    "quantity": "3"
+                },
+                {
+                    "i_id": 27,
+                    "quantity": "1"
+                },
+                {
+                    "i_id": 31,
+                    "quantity": "1 tsp"
+                },
+                {
+                    "i_id": 42,
+                    "quantity": "1 tsp"
+                },
+                {
+                    "i_id": 45,
+                    "quantity": "50 g"
+                },
+                {
+                    "i_id": 46,
+                    "quantity": "50 g"
+                },
+                {
+                    "i_id": 47,
+                    "quantity": "500 g"
+                },
+                {
+                    "i_id": 48,
+                    "quantity": "1 tsp"
+                },
+                {
+                    "i_id": 49,
+                    "quantity": "1 tsp"
+                }
   
-  "ingredients": [
-      {
-          "id": 1,
-          "name": "Flour"   
-      },
-      {
-          "id": 2,
-          "name": "Water"
-      },
-      {
-          "id": 3,
-          "name": "Salt"
-      },
-      {
+            ]
+        }
+    ],
+
+    "dinner":[
+        {
+            "id": 1,
+            "image": "/images/lasagna-soup.jpg",
+            "name": "Lasagna soup",
+            "recipe": [
+                {
+                  "i_id": 2, 
+                  "quantity": "5 cup"
+                },
+                {
+                  "i_id": 3,
+                  "quantity": "2 tsp"
+                },
+                {
+                  "i_id": 11, 
+                  "quantity": "2 tsp"
+                },
+                {
+                  "i_id": 13,
+                  "quantity": "2 cup"
+                },
+                {
+                  "i_id": 26, 
+                  "quantity": "2 tsp"
+                },
+                {
+                  "i_id": 27,
+                  "quantity": "2"          
+                },
+                {
+                  "i_id": 28,
+                  "quantity": "500 g"
+                },
+                {
+                  "i_id": 30,
+                  "quantity": "1"          
+                },
+                {
+                  "i_id": 31,
+                  "quantity": "1 tsp"
+                },
+                {
+                  "i_id": 32,
+                  "quantity": "250 g"
+                },
+                {
+                  "i_id": 34,
+                  "quantity": "500 g"
+                }
+        ]
+            
+        },
+        {
           "id": 4,
-          "name": "Olive oil"
-      },
-      {
-          "id": 5,
-          "name": "Sugar"
-      },
-      {
-          "id": 6,
-          "name": "Yeast"
-      },
-      {
-          "id": 7,
-          "name": "Butter"
-      },
-      {
-          "id": 8,
-          "name": "Eggs "
-      },
-      {
-          "id": 9,
-          "name": "Milk "
-      },
-      {
-          "id": 10,
-          "name": "Cooking cream"
-      },
-      {
-          "id": 11,
-          "name": "Black pepper "
-      },
-      {
-          "id": 12,
-          "name": "Sunflower seeds"
-      },
-      {
-          "id": 13,
-          "name": "Grated cheese"
-      },
-      {
-          "id": 14,
-          "name": "Broccoli"
-      },
-      {
-          "id": 15,
-          "name": "Peanut butter"
-      },
-      {
-          "id": 16,
-          "name": "Sweet chili sauce"
-      },
-      {
-          "id": 17,
-          "name": "Japanese soy"
-      },
-      {
-          "id": 18,
-          "name": "Tofu"
-      },
-      {
-          "id": 19,
-          "name": "Carrots"
-      },
-      {
-          "id": 20,
-          "name": "Avocados"
-      },
-      {
-          "id": 21,
-          "name": "Green onions"
-      },
-      {
-          "id": 22,
-          "name": "Bean sprouts"
-      },
-      {
-          "id": 23,
-          "name": "Coriander"
-      },
-      {
-          "id": 24,
-          "name": "Veal fillet"
-      },
-      {
-          "id": 25,
-          "name": "Panko"
-      },
-      {
-          "id": 26,
-          "name": "Rapeseed oil"
-      },
-      {
-          "id": 27,
-          "name": "Garlic cloves"
-      },
-      {
-          "id": 28,
-          "name": "Ground beef"
-      },
-      {
-          "id": 29,
-          "name": "Tomater"
-      },
-      {
-          "id": 30,
-          "name": "Vegetable stock"
-      },
-      {
-          "id": 31,
-          "name": "Chili flakes"
-      },
-      {
-          "id": 32,
-          "name": "Pasta Reginette"
-      },
-      {
-          "id": 33,
-          "name": "Basil"
-      },
-      {
-          "id": 34,
-          "name": "Crossed tomato"
-      },
-      {
-          "id": 35,
-          "name": "Baguette"
-      },
-      {
-          "id": 36,
-          "name": "Mushrooms "
-      },
-      {
-          "id": 37,
-          "name": "Olives"
-      },
-      {
-          "id": 38,
-          "name": "Sour cream"
-      },
-      {
-          "id": 39,
-          "name": "Parsley"
-      },
-      {
-          "id": 40,
-          "name": "Yeast"
-      },
-      {
-          "id": 41,
-          "name": "Cocktail tomatoes"
-      },
-      {
-          "id": 42,
-          "name": "Powdered sugar"
-      },
-      {  
-          "id": 43,
-          "name": "Sugar"
-      },
-      {
-          "id": 44,
-          "name": "Mozzarella"
-      },
-      {
-          "id": 45,
-          "name": "White cabbage"
-      },
-      {
-          "id": 46,
-          "name": "Ginger"
-      },
-      {
-          "id": 47,
-          "name": "Minced pork"
-      },
-      {
-          "id": 48,
-          "name": "Sesame oil"
-      },
-      {
-          "id": 49,
-          "name": "Fish sauce"
-      },
-      {
-          "id": 50,
-          "name": "Sweet potatoes"
-      },
-      {
-          "id": 51,
-          "name": "Squash"
-      },
-      {
-          "id": 52,
-          "name": "Peppers"
-      },
-      {
-          "id": 53,
-          "name": "Black beans"
-      },
-      {
-          "id": 54,
-          "name": "Chorizo sausages"
-      },
-      {
-          "id": 55,
-          "name": "Jasmine rice"
-      },
-      {
-          "id": 56,
-          "name": "Digestive Biscuits"
-      },
-      {
-          "id": 57,
-          "name": "Vanilla powder"
-      },
-      {
-          "id": 58,
-          "name": "Philadelphia cheese"
-      },
-      {
-          "id": 59,
-          "name": "Whipped cream "
-      },
-      {
-          "id": 60,
-          "name": "Breadcrumbs"
-      },
-      {
-          "id": 61,
-          "name": "Vanilla sugar"
-      },
-      {
-          "id": 62,
-          "name": "Cocoa"
-      },
-      {
-          "id": 63,
-          "name": "Hazelnuts"
-      },
-      {
-          "id": 64,
-          "name": "Baking Soda"
-      },
-      {
-          "id": 65,
-          "name": "Dark chocolate"
-      },
-      {
-          "id": 66,
-          "name": "Raspberry jam"
-      },
-      {
-          "id": 67,
-          "name": "Grated coconut"
-      },
-      {
-          "id": 68,
-          "name": "Passion fruits"
-      },
-      {
-          "id": 69,
-          "name": "Vanilla ice cream"
-      }
+          "image": "/images/schnitzel.jpg",
+          "name": "Schnitzel",
+          "recipe": [
+                {
+                  "i_id": 1, 
+                  "quantity": "1 cup"
+                },
+                {
+                  "i_id": 3,
+                  "quantity": "2 tsp"
+                },
+                {
+                  "i_id": 8, 
+                  "quantity": "2"
+                },
+                {
+                  "i_id": 11,
+                  "quantity": "1 pinch"
+                },
+                {
+                  "i_id": 24, 
+                  "quantity": "500 g"
+                },
+                {
+                  "i_id": 25,
+                  "quantity": "panko "          
+                },
+                {
+                  "i_id": 26,
+                  "quantity": "2 cup"
+                }
+          ]
+        },
+        {
+            "id": 3,
+            "image": "/images/pizza.jpg",
+            "name": "Pizza Margherita",
+            "recipe": [
+                {
+                    "i_id": 1, 
+                    "quantity": "12 cup"
+                },
+                {
+                    "i_id": 2,
+                    "quantity": "2 tsp"
+                } ,
+                {
+                    "i_id": 3, 
+                    "quantity": "2 tsp"
+                },
+                {
+                    "i_id": 4,
+                    "quantity": "1 tbsp"
+                },
+                {
+                    "i_id": 26, 
+                    "quantity": "1/2 cup"
+                },
+                {
+                    "i_id": 40,
+                    "quantity": "50 g"
+                },
+                {
+                    "i_id": 41, 
+                    "quantity": "7300 g"
+                },
+                {
+                    "i_id": 42,
+                    "quantity": "2 pinch"
+                },
+                {
+                    "i_id": 44,
+                    "quantity": "1"
+                }
+  
+            ]
+        },
+        {
+            "id": 4,
+            "image": "/images/potatoes-saosage.jpg",
+            "name": "Sweet potatoes with sausage",
+            "recipe": [
+                {
+                    "i_id": 4, 
+                    "quantity": "3 tsp"
+                },
+                {
+                    "i_id": 19,
+                    "quantity": "2"
+                },
+                {
+                    "i_id": 27,
+                    "quantity": "3"
+                },
+                {
+                    "i_id": 39,
+                    "quantity": "1/2 cup"
+                },
+                {
+                    "i_id": 50,
+                    "quantity": "900 g"
+                },
+                {
+                    "i_id": 51,
+                    "quantity": "1"
+                },
+                {
+                    "i_id": 52,
+                    "quantity": "2"
+                },
+                {
+                    "i_id": 53,
+                    "quantity": "400 g"
+                },
+                {
+                    "i_id": 54,
+                    "quantity": "800 g"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "image": "/images/fries_rice.jpg",
+            "name": "Fried rice",
+            "recipe": [
+                {
+                    "i_id": 8, 
+                    "quantity": "2"
+                },
+                {
+                    "i_id": 19, 
+                    "quantity": "1"
+                },
+                {
+                    "i_id": 26,
+                    "quantity": "2 tbsp"
+                },
+                {
+                    "i_id": 27,
+                    "quantity": "3"
+                },
+                {
+                    "i_id": 31,
+                    "quantity": "1 tsp"
+                },
+                {
+                    "i_id": 43,
+                    "quantity": "150 g"
+                },
+                {
+                    "i_id": 52,
+                    "quantity": "1"
+                },
+                {
+                    "i_id": 55,
+                    "quantity": "3 cup"
+                }
+                
+            ]
+        }
+    ],
+
+    "dessert":[
+        {
+            "id": 1,
+            "image": "/images/cheesecake.jpg",
+            "name": "Cheesecake",
+            "recipe": [
+                {
+                    "i_id": 5, 
+                    "quantity": "1/2 cup"
+                },
+                {
+                    "i_id": 8,
+                    "quantity": "3"
+                } ,
+                {
+                    "i_id": 7,
+                    "quantity": "75 g"
+                },
+                {
+                    "i_id": 56,
+                    "quantity": "15"
+                },
+                {
+                    "i_id": 57,
+                    "quantity": "1 pinch"
+                },
+                {
+                    "i_id": 58,
+                    "quantity": "400 g"
+                },
+                {
+                    "i_id": 59,
+                    "quantity": "2 cup"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "image": "/images/chocoloate-cake.jpg",
+            "name": "Sticky chocolate cake",
+            "recipe": [
+                {
+                    "i_id": 1, 
+                    "quantity": "2 cup"
+                },
+                {
+                    "i_id": 3,
+                    "quantity": "1 tsp"
+                },
+                {
+                    "i_id": 7,
+                    "quantity": "100 g"
+                },
+                {
+                    "i_id": 8,
+                    "quantity": "2"
+                },
+                {
+                    "i_id": 43,
+                    "quantity": "3 cup"
+                },
+                {
+                    "i_id": 60,
+                    "quantity": "3 tbsp"
+                },
+                {
+                    "i_id": 61,
+                    "quantity": "3 tsp"
+                },
+                {
+                    "i_id": 62,
+                    "quantity": "3 tbsp"
+                }
+                
+            ]
+        },
+        {
+            "id": 3,
+            "image": "/images/brownies.jpg",
+            "name": "Brownies",
+            "recipe": [
+                {
+                    "i_id": 1, 
+                    "quantity": "3 cup"
+                },
+                {
+                    "i_id": 3,
+                    "quantity": "1 pinch"
+                },
+                {
+                    "i_id": 7,
+                    "quantity": "200 g"
+                },
+                {
+                    "i_id": 8,
+                    "quantity": "3"
+                },
+                {
+                    "i_id": 41,
+                    "quantity": "3 cup"
+                },
+                {
+                    "i_id": 61,
+                    "quantity": "2 tsp"
+                },
+                {
+                    "i_id": 62,
+                    "quantity": "1 cup"
+                },
+                {
+                    "i_id": 63,
+                    "quantity": "100 g"
+                },
+                {
+                    "i_id": 64,
+                    "quantity": "1/2 tsp"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "image": "/images/coconut-passion-ice-cream.jpg",
+            "name": "Coconut with passion fruit and ice cream",
+            "recipe": [
+                {
+                    "i_id": 5, 
+                    "quantity": "3 tbsp"
+                },
+                {
+                    "i_id": 7,
+                    "quantity": "3 tbsp"
+                },
+                {
+                    "i_id": 67,
+                    "quantity": "2 cup"
+                },
+                {
+                    "i_id": 68,
+                    "quantity": "2"
+                },
+                {
+                    "i_id": 69,
+                    "quantity": "1/2 l "
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "image": "/images/chocolate-dessert.jpg",
+            "name": "Chocolate dessert",
+            "recipe": [
+                {
+                    "i_id": 59, 
+                    "quantity": "3 cup"
+                },
+                {
+                    "i_id": 65,
+                    "quantity": "150 g"
+                },
+                {
+                    "i_id": 66,
+                    "quantity": "3 cup"
+                }
+            ]
+        }
+    ],
     
-    
-      
-  ]
-}
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Flour"   
+        },
+        {
+            "id": 2,
+            "name": "Water"
+        },
+        {
+            "id": 3,
+            "name": "Salt"
+        },
+        {
+            "id": 4,
+            "name": "Olive oil"
+        },
+        {
+            "id": 5,
+            "name": "Sugar"
+        },
+        {
+            "id": 6,
+            "name": "Yeast"
+        },
+        {
+            "id": 7,
+            "name": "Butter"
+        },
+        {
+            "id": 8,
+            "name": "Eggs "
+        },
+        {
+            "id": 9,
+            "name": "Milk "
+        },
+        {
+            "id": 10,
+            "name": "Cooking cream"
+        },
+        {
+            "id": 11,
+            "name": "Black pepper "
+        },
+        {
+            "id": 12,
+            "name": "Sunflower seeds"
+        },
+        {
+            "id": 13,
+            "name": "Grated cheese"
+        },
+        {
+            "id": 14,
+            "name": "Broccoli"
+        },
+        {
+            "id": 15,
+            "name": "Peanut butter"
+        },
+        {
+            "id": 16,
+            "name": "Sweet chili sauce"
+        },
+        {
+            "id": 17,
+            "name": "Japanese soy"
+        },
+        {
+            "id": 18,
+            "name": "Tofu"
+        },
+        {
+            "id": 19,
+            "name": "Carrots"
+        },
+        {
+            "id": 20,
+            "name": "Avocados"
+        },
+        {
+            "id": 21,
+            "name": "Green onions"
+        },
+        {
+            "id": 22,
+            "name": "Bean sprouts"
+        },
+        {
+            "id": 23,
+            "name": "Coriander"
+        },
+        {
+            "id": 24,
+            "name": "Veal fillet"
+        },
+        {
+            "id": 25,
+            "name": "Panko"
+        },
+        {
+            "id": 26,
+            "name": "Rapeseed oil"
+        },
+        {
+            "id": 27,
+            "name": "Garlic cloves"
+        },
+        {
+            "id": 28,
+            "name": "Ground beef"
+        },
+        {
+            "id": 29,
+            "name": "Tomater"
+        },
+        {
+            "id": 30,
+            "name": "Vegetable stock"
+        },
+        {
+            "id": 31,
+            "name": "Chili flakes"
+        },
+        {
+            "id": 32,
+            "name": "Pasta Reginette"
+        },
+        {
+            "id": 33,
+            "name": "Basil"
+        },
+        {
+            "id": 34,
+            "name": "Crossed tomato"
+        },
+        {
+            "id": 35,
+            "name": "Baguette"
+        },
+        {
+            "id": 36,
+            "name": "Mushrooms "
+        },
+        {
+            "id": 37,
+            "name": "Olives"
+        },
+        {
+            "id": 38,
+            "name": "Sour cream"
+        },
+        {
+            "id": 39,
+            "name": "Parsley"
+        },
+        {
+            "id": 40,
+            "name": "Yeast"
+        },
+        {
+            "id": 41,
+            "name": "Cocktail tomatoes"
+        },
+        {
+            "id": 42,
+            "name": "Powdered sugar"
+        },
+        {  
+            "id": 43,
+            "name": "Sugar"
+        },
+        {
+            "id": 44,
+            "name": "Mozzarella"
+        },
+        {
+            "id": 45,
+            "name": "White cabbage"
+        },
+        {
+            "id": 46,
+            "name": "Ginger"
+        },
+        {
+            "id": 47,
+            "name": "Minced pork"
+        },
+        {
+            "id": 48,
+            "name": "Sesame oil"
+        },
+        {
+            "id": 49,
+            "name": "Fish sauce"
+        },
+        {
+            "id": 50,
+            "name": "Sweet potatoes"
+        },
+        {
+            "id": 51,
+            "name": "Squash"
+        },
+        {
+            "id": 52,
+            "name": "Peppers"
+        },
+        {
+            "id": 53,
+            "name": "Black beans"
+        },
+        {
+            "id": 54,
+            "name": "Chorizo sausages"
+        },
+        {
+            "id": 55,
+            "name": "Jasmine rice"
+        },
+        {
+            "id": 56,
+            "name": "Digestive Biscuits"
+        },
+        {
+            "id": 57,
+            "name": "Vanilla powder"
+        },
+        {
+            "id": 58,
+            "name": "Philadelphia cheese"
+        },
+        {
+            "id": 59,
+            "name": "Whipped cream "
+        },
+        {
+            "id": 60,
+            "name": "Breadcrumbs"
+        },
+        {
+            "id": 61,
+            "name": "Vanilla sugar"
+        },
+        {
+            "id": 62,
+            "name": "Cocoa"
+        },
+        {
+            "id": 63,
+            "name": "Hazelnuts"
+        },
+        {
+            "id": 64,
+            "name": "Baking Soda"
+        },
+        {
+            "id": 65,
+            "name": "Dark chocolate"
+        },
+        {
+            "id": 66,
+            "name": "Raspberry jam"
+        },
+        {
+            "id": 67,
+            "name": "Grated coconut"
+        },
+        {
+            "id": 68,
+            "name": "Passion fruits"
+        },
+        {
+            "id": 69,
+            "name": "Vanilla ice cream"
+        }
+    ]
+  }
