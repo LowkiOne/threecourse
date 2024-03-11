@@ -14,7 +14,8 @@ const app = Vue.createApp({
             selectedRecipes: {
                 starter: null,
                 dinner: null,
-                dessert: null
+                dessert: null,
+                shoppingList: null
             },
             ingredients: []
         };
@@ -28,6 +29,9 @@ const app = Vue.createApp({
         },
         currentDessert() {
             return this.threeCourse.dessert[this.currentIndex.dessert];
+        },
+        currentShoppingList() {
+            return [this.currentStarter, this.currentDinner, this.currentDessert].flatMap(recipe => recipe ? recipe.recipe : []).map(ingredient => ({ ...ingredient }));
         }
     },
     methods: {
@@ -37,50 +41,22 @@ const app = Vue.createApp({
         next(type) {
             this.currentIndex[type] = (this.currentIndex[type] + 1) % this.threeCourse[type].length;
         },
-        recipesbtn(){
+        recipesbtn() {
             this.selectedRecipes = {
                 starter: this.currentStarter,
                 dinner: this.currentDinner,
-                dessert: this.currentDessert
+                dessert: this.currentDessert,
+                shoppingList: this.currentShoppingList
             };
-            this.getIngredients();
         },
-        getIngredients() {
-            this.ingredients = [];
-            if (this.selectedRecipes.starter) {
-                this.selectedRecipes.starter.ingredients.forEach(ingredient => {
-                    const ingredientInfo = this.findIngredientById(ingredient.id);
-                    this.ingredients.push({
-                        name: ingredientInfo.name,
-                        quantity: ingredient.quantity
-                    });
-                });
-            }
-            if (this.selectedRecipes.dinner) {
-                this.selectedRecipes.dinner.ingredients.forEach(ingredient => {
-                    const ingredientInfo = this.findIngredientById(ingredient.id);
-                    this.ingredients.push({
-                        name: ingredientInfo.name,
-                        quantity: ingredient.quantity
-                    });
-                });
-            }
-            if (this.selectedRecipes.dessert) {
-                this.selectedRecipes.dessert.ingredients.forEach(ingredient => {
-                    const ingredientInfo = this.findIngredientById(ingredient.id);
-                    console.log("Ingredient ID:", ingredient.id);
-                    console.log("Ingredient info:", ingredientInfo);
-                    this.ingredients.push({
-                        name: ingredientInfo.name,
-                        quantity: ingredient.quantity
-                    });
-                });
+        getIngredients(id) {
+            let ingredient;
+            for (let i = 0; i < this.ingredients.length; i++) {
+                if (this.ingredients[i].id === id) {
+                    return ingredient = this.ingredients[i];
+                }
             }
         },
-        findIngredientById(ingredientid) {
-            const ingredient = this.ingredients.find(item => item.id === ingredientid);
-            return ingredient ? ingredient.name : 'Unknown Ingredient';
-        }
     },
     mounted() {
         fetch('data.json')
