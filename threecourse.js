@@ -15,7 +15,7 @@ const app = Vue.createApp({
                 starter: null,
                 dinner: null,
                 dessert: null,
-                //shoppingList: null
+                shoppingList: null
             },
             ingredients: []
         };
@@ -30,8 +30,20 @@ const app = Vue.createApp({
         currentDessert() {
             return this.threeCourse.dessert[this.currentIndex.dessert];
         },
-         currentShoppingList() {
-             return [this.currentStarter, this.currentDinner, this.currentDessert].flatMap(recipe => recipe ? recipe.recipe : []).map(ingredient => ({ ...ingredient }));
+        currentShoppingList() {
+            const allRecipes = [this.currentStarter, this.currentDinner, this.currentDessert];
+            const allIngredients = allRecipes.flatMap(recipe => recipe ? recipe.recipe : []);
+
+            const uniqueIngredientsMap = new Map();
+            allIngredients.forEach(ingredient => {
+                if (!uniqueIngredientsMap.has(ingredient.i_id)) {
+                    uniqueIngredientsMap.set(ingredient.i_id, { ...ingredient });
+                }
+            });
+
+            const uniqueIngredients = Array.from(uniqueIngredientsMap.values());
+
+            return uniqueIngredients;
         }
     },
     methods: {
@@ -55,14 +67,7 @@ const app = Vue.createApp({
                     return this.ingredients[i];
                 }
             }
-        },
-         getShoppingList(ids) {
-            for (let i = 0; i < this.ingredients.length; i++) {
-                if (this.ingredients[i].id === id) {
-                    return this.ingredients[i];
-                }
-            }
-         }
+        }
     },
     mounted() {
         fetch('data.json')
