@@ -20,7 +20,7 @@ header {
     margin: 5px auto;
     background-color: #fdecd4;
     border-radius: 5px;
-    max-width: 800px;
+    max-width: 736px;
 }
 
 h1 {
@@ -114,11 +114,13 @@ main .displayrecipe {
     font-family: cursive;
 }
 
-.ingredientsdiv, .instructionsdiv{
+.ingredientsdiv,
+.instructionsdiv {
     margin: 5px auto;
 }
 
-.displayrecipe ul, ol {
+.displayrecipe ul,
+ol {
     margin: auto;
     padding: 0 5px;
 }

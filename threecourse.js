@@ -31,7 +31,7 @@ const app = Vue.createApp({
             return this.threeCourse.dessert[this.currentIndex.dessert];
         },
         currentShoppingList() {
-            const allRecipes = [this.currentStarter, this.currentDinner, this.currentDessert];
+            const allRecipes = [this.selectedRecipes.starter, this.selectedRecipes.dinner, this.selectedRecipes.dessert];
             const allIngredients = allRecipes.flatMap(recipe => recipe ? recipe.recipe : []);
 
             const uniqueIngredientsMap = new Map();
