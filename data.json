@@ -1,12 +1,12 @@
 {
-    "starter":[
+    "starter": [
         {
             "id": 1,
-            "image": "/images/brusch-tomato.jpg",
+            "image": "images/brusch-tomato.jpg",
             "name": "Bruschetta",
             "recipe": [
                 {
-                    "i_id": 3, 
+                    "i_id": 3,
                     "quantity": "1/2 tsp"
                 },
                 {
@@ -14,7 +14,7 @@
                     "quantity": "2 tsp"
                 },
                 {
-                    "i_id": 11, 
+                    "i_id": 11,
                     "quantity": "1 pinch"
                 },
                 {
@@ -22,7 +22,7 @@
                     "quantity": "2"
                 },
                 {
-                    "i_id": 26, 
+                    "i_id": 26,
                     "quantity": "2 tsp"
                 },
                 {
@@ -30,12 +30,42 @@
                     "quantity": "4"
                 },
                 {
-                    "i_id": 33, 
+                    "i_id": 33,
                     "quantity": "15 g"
                 },
                 {
-                    "i_id": 35, 
+                    "i_id": 35,
                     "quantity": "1"
+                }
+            ],
+            "instructions": [
+                {
+                    "id": 1,
+                    "todo": "Chop tomatoes & basil. "
+                },
+                {
+                    "id": 2,
+                    "todo": "Mix in a bowl with salt & pepper"
+                },
+                {
+                    "id": 3,
+                    "todo": "Divide the bread into four parts. "
+                },
+                {
+                    "id": 4,
+                    "todo": "Roast in a grill or frying pan"
+                },
+                {
+                    "id": 5,
+                    "todo": "Mix butter & rapseed oil with garlic & spread on the bread. "
+                },
+                {
+                    "id": 6,
+                    "todo": "Top with the tomato puree"
+                },
+                {
+                    "id": 7,
+                    "todo": "Serve your bruchetta immediately"
                 }
             ]
         },
@@ -45,11 +75,11 @@
             "name": "Broccoli pie",
             "recipe": [
                 {
-                  "i_id": 1,
-                  "name": "1/2 dl"   
+                    "i_id": 1,
+                    "name": "1/2 dl"
                 },
                 {
-                    "i_id": 3, 
+                    "i_id": 3,
                     "quantity": "1 tsp"
                 },
                 {
@@ -61,28 +91,106 @@
                     "quantity": "125 g"
                 },
                 {
-                  "i_id": 8,
-                  "quantity": "4"
+                    "i_id": 8,
+                    "quantity": "4"
                 },
                 {
-                  "i_id": 9,
-                  "quantity": "1 dl"
+                    "i_id": 9,
+                    "quantity": "1 dl"
                 },
                 {
-                  "i_id": 10,
-                  "quantity": "2 1/2 cup"
+                    "i_id": 10,
+                    "quantity": "2 1/2 cup"
                 },
                 {
-                  "i_id": 11,
-                  "quantity": "2 tsp"
+                    "i_id": 11,
+                    "quantity": "2 tsp"
                 },
                 {
-                  "i_id": 12,
-                  "quantity": "1 cup"
+                    "i_id": 12,
+                    "quantity": "1 cup"
                 },
                 {
-                  "i_id": 13,
-                  "quantity": "150 g"
+                    "i_id": 13,
+                    "quantity": "150 g"
+                }
+            ],
+            "instructions": [
+                {
+                    "id": 1,
+                    "todo": "Set the oven to 200°C."
+                },
+                {
+                    "id": 2,
+                    "todo": "Pie dough: Mix wheat flour, salt & butter in cubes with your fingertips in a bowl."
+                },
+                {
+                    "id": 3,
+                    "todo": "Add cold water & quickly knead into a dough."
+                },
+                {
+                    "id": 4,
+                    "todo": "Flatten the dough a little "
+                },
+                {
+                    "id": 5,
+                    "todo": "Put it in plastic wrap"
+                },
+                {
+                    "id": 6,
+                    "todo": "Put it in the fridge to rest for at least 30 minutes."
+                },
+                {
+                    "id": 5,
+                    "todo": "The dough can be made a day in advance."
+                },
+                {
+                    "id": 6,
+                    "todo": "Press the dough into a greased pie tin, 27 cm in diameter (for 4 ports)."
+                },
+                {
+                    "id": 7,
+                    "todo": "Prick the dough in the pie tin with a fork. "
+                },
+                {
+                    "id": 8,
+                    "todo": "Pre-bake the pie shell in the middle of the oven for about 10 minutes."
+                },
+                {
+                    "id": 9,
+                    "todo": "Filling: Cut the broccoli crown into small florets."
+                },
+                {
+                    "id": 10,
+                    "todo": "Peel and cut the stem into slices about 1/2 cm thick."
+                },
+                {
+                    "id": 11,
+                    "todo": "Boil the broccoli in salted water for about 3 minutes."
+                },
+                {
+                    "id": 12,
+                    "todo": "Drain in a colander and rinse cold."
+                },
+                {
+                    "id": 13,
+                    "todo": "Drain the broccoli well."
+                },
+                {
+                    "id": 14,
+                    "todo": "Grate the cheese. "
+                },
+                {
+                    "id": 15,
+                    "todo": "Mix eggs, milk, cream, salt, pepper and cheese."
+                },
+                {
+                    "id": 16,
+                    "todo": "Place the broccoli and sunflower seeds in the pie shell and pour over the egg mixture. "
+                },
+                {
+                    "id": 17,
+                    "todo": "Place the pie in the middle of the oven for 15-20 minutes or until the egg yolk has set."
                 }
             ]
         },
@@ -112,8 +220,8 @@
                     "quantity": "230 g"
                 },
                 {
-                  "i_id": 19,
-                  "quantity": "2"
+                    "i_id": 19,
+                    "quantity": "2"
                 },
                 {
                     "i_id": 20,
@@ -131,6 +239,56 @@
                     "i_id": 23,
                     "quantity": "20 g"
                 }
+            ],
+            "instructions": [
+                {
+                    "id": 1,
+                    "todo": "Dip: Boil the water."
+                },
+                {
+                    "id": 2,
+                    "todo": "Remove the saucepan from the heat and mix in the peanut butter, sweet chilli sauce and soy."
+                },
+                {
+                    "id": 3,
+                    "todo": "Let cool."
+                },
+                {
+                    "id": 4,
+                    "todo": "Spring rolls: Cut the tofu into sticks."
+                },
+                {
+                    "id": 5,
+                    "todo": "Peel the carrots and cut into thin strips."
+                },
+                {
+                    "id": 6,
+                    "todo": "Split, core and pit the avocados, slice them."
+                },
+                {
+                    "id": 7,
+                    "todo": "Trim and slice the green onions. "
+                },
+                {
+                    "id": 8,
+                    "todo": "Arrange all the vegetables and cilantro on a serving plate."
+                },
+                {
+                    "id": 9,
+                    "todo": "At the table: Place a large bowl of lukewarm water on the table."
+                },
+                {
+                    "id": 10,
+                    "todo": "Everyone dips their own rice paper in the water for about 30 seconds."
+                },
+                {
+                    "id": 11,
+                    "todo": "Lift up, let it drip off and put it on the plate."
+                },
+                {
+                    "id": 12,
+                    "todo": "Add vegetables and sesame seeds and fold into a roll."
+                }
             ]
         },
         {
@@ -139,7 +297,7 @@
             "name": "Mushroom bruschetta",
             "recipe": [
                 {
-                    "i_id": 3, 
+                    "i_id": 3,
                     "quantity": "1/2 tsp"
                 },
                 {
@@ -147,7 +305,7 @@
                     "quantity": "2 tsp"
                 },
                 {
-                    "i_id": 7, 
+                    "i_id": 7,
                     "quantity": "1 tbsp"
                 },
                 {
@@ -155,12 +313,12 @@
                     "quantity": "1 pinch"
                 },
                 {
-                    "i_id": 13, 
+                    "i_id": 13,
                     "quantity": "1 cup"
                 },
                 {
                     "i_id": 36,
-                    "quantity": "300 g"          
+                    "quantity": "300 g"
                 },
                 {
                     "i_id": 37,
@@ -174,6 +332,44 @@
                     "i_id": 39,
                     "quantity": "1"
                 }
+            ],
+            "instructions": [
+                {
+                    "id": 1,
+                    "todo": "Rinse and cut the mushrooms into quarters."
+                },
+                {
+                    "id": 2,
+                    "todo": "Melt the butter in a frying pan.  "
+                },
+                {
+                    "id": 3,
+                    "todo": "Add the mushrooms & let fry until all the liquid has boiled off."
+                },
+                {
+                    "id": 4,
+                    "todo": "Add salt & pepper."
+                },
+                {
+                    "id": 5,
+                    "todo": "Slice the olives & mix with the mushrooms."
+                },
+                {
+                    "id": 6,
+                    "todo": "Add crème fraiche, cheese & parsley."
+                },
+                {
+                    "id": 7,
+                    "todo": "Heat the oil and butter in a frying pan."
+                },
+                {
+                    "id": 8,
+                    "todo": "Add the bread slices and fry for about 2 minutes per side."
+                },
+                {
+                    "id": 9,
+                    "todo": "Spread the mushroom mixture on the bread."
+                }
             ]
         },
         {
@@ -182,7 +378,7 @@
             "name": "Nanami gyoza",
             "recipe": [
                 {
-                    "i_id": 3, 
+                    "i_id": 3,
                     "quantity": "1 tsp"
                 },
                 {
@@ -221,98 +417,221 @@
                     "i_id": 49,
                     "quantity": "1 tsp"
                 }
-  
+            ],
+            "instructions": [
+                {
+                    "id": 1,
+                    "todo": "Shred & finely chop the cabbage."
+                },
+                {
+                    "id": 2,
+                    "todo": "Slice the onion thinly."
+                },
+                {
+                    "id": 3,
+                    "todo": "Peel & finely grate the ginger & garlic."
+                },
+                {
+                    "id": 4,
+                    "todo": "Put everything in a bowl & add minced meat, sugar, sesame oil, fish sauce, chili flakes & salt."
+                },
+                {
+                    "id": 5,
+                    "todo": "Mix well."
+                },
+                {
+                    "id": 6,
+                    "todo": "Lay out a few wonton plates at a time & put a heaped teaspoon of filling in the middle."
+                },
+                {
+                    "id": 7,
+                    "todo": "Moisten the edges with a little water."
+                },
+                {
+                    "id": 8,
+                    "todo": "Pinch upwards into a knot."
+                },
+                {
+                    "id": 9,
+                    "todo": "Fry the bottom of the gyoza in a tractor pan in butter & rapeseed oil for about 2 minutes on high heat."
+                },
+                {
+                    "id": 10,
+                    "todo": "Pour in 1 dl of water & put the lid on."
+                },
+                {
+                    "id": 11,
+                    "todo": "Let the gyoza steam for 3-5 min."
+                },
+                {
+                    "id": 12,
+                    "todo": "Remove the lid and let fry until the bottom surface of the gyoza is crispy."
+                },
+                {
+                    "id": 13,
+                    "todo": "Brown the butter in a saucepan while whisking until it starts to smell nutty.  "
+                },
+                {
+                    "id": 14,
+                    "todo": "Pour into a heat-resistant bowl & let cool slightly."
+                },
+                {
+                    "id": 15,
+                    "todo": "Season the butter with the soy."
+                },
+                {
+                    "id": 16,
+                    "todo": "Serve the gyoza with the browned soy butter."
+                }
             ]
         }
     ],
-
-    "dinner":[
+    "dinner": [
         {
             "id": 1,
             "image": "/images/lasagna-soup.jpg",
             "name": "Lasagna soup",
             "recipe": [
                 {
-                  "i_id": 2, 
-                  "quantity": "5 cup"
+                    "i_id": 2,
+                    "quantity": "5 cup"
                 },
                 {
-                  "i_id": 3,
-                  "quantity": "2 tsp"
+                    "i_id": 3,
+                    "quantity": "2 tsp"
                 },
                 {
-                  "i_id": 11, 
-                  "quantity": "2 tsp"
+                    "i_id": 11,
+                    "quantity": "2 tsp"
                 },
                 {
-                  "i_id": 13,
-                  "quantity": "2 cup"
+                    "i_id": 13,
+                    "quantity": "2 cup"
                 },
                 {
-                  "i_id": 26, 
-                  "quantity": "2 tsp"
+                    "i_id": 26,
+                    "quantity": "2 tsp"
                 },
                 {
-                  "i_id": 27,
-                  "quantity": "2"          
+                    "i_id": 27,
+                    "quantity": "2"
                 },
                 {
-                  "i_id": 28,
-                  "quantity": "500 g"
+                    "i_id": 28,
+                    "quantity": "500 g"
                 },
                 {
-                  "i_id": 30,
-                  "quantity": "1"          
+                    "i_id": 30,
+                    "quantity": "1"
                 },
                 {
-                  "i_id": 31,
-                  "quantity": "1 tsp"
+                    "i_id": 31,
+                    "quantity": "1 tsp"
                 },
                 {
-                  "i_id": 32,
-                  "quantity": "250 g"
+                    "i_id": 32,
+                    "quantity": "250 g"
                 },
                 {
-                  "i_id": 34,
-                  "quantity": "500 g"
+                    "i_id": 34,
+                    "quantity": "500 g"
                 }
-        ]
-            
+            ],
+            "instructions": [
+                {
+                    "id": 1,
+                    "todo": "Peel and chop the garlic."
+                },
+                {
+                    "id": 2,
+                    "todo": "Fry in oil with the mince until it gets a little colour."
+                },
+                {
+                    "id": 3,
+                    "todo": "Add tomatoes, stock cube, chili powder & water, cook for 5 minutes."
+                },
+                {
+                    "id": 4,
+                    "todo": "Season with salt & pepper."
+                },
+                {
+                    "id": 5,
+                    "todo": "Cook the pasta in salted water, drain & stir into the soup."
+                },
+                {
+                    "id": 6,
+                    "todo": "Top with cheese."
+                }
+            ]
         },
         {
-          "id": 4,
-          "image": "/images/schnitzel.jpg",
-          "name": "Schnitzel",
-          "recipe": [
+            "id": 2,
+            "image": "/images/schnitzel.jpg",
+            "name": "Schnitzel",
+            "recipe": [
                 {
-                  "i_id": 1, 
-                  "quantity": "1 cup"
+                    "i_id": 1,
+                    "quantity": "1 cup"
                 },
                 {
-                  "i_id": 3,
-                  "quantity": "2 tsp"
+                    "i_id": 3,
+                    "quantity": "2 tsp"
                 },
                 {
-                  "i_id": 8, 
-                  "quantity": "2"
+                    "i_id": 8,
+                    "quantity": "2"
                 },
                 {
-                  "i_id": 11,
-                  "quantity": "1 pinch"
+                    "i_id": 11,
+                    "quantity": "1 pinch"
                 },
                 {
-                  "i_id": 24, 
-                  "quantity": "500 g"
+                    "i_id": 24,
+                    "quantity": "500 g"
                 },
                 {
-                  "i_id": 25,
-                  "quantity": "panko "          
+                    "i_id": 25,
+                    "quantity": "panko "
                 },
                 {
-                  "i_id": 26,
-                  "quantity": "2 cup"
+                    "i_id": 26,
+                    "quantity": "2 cup"
                 }
-          ]
+            ],
+            "instructions": [
+                {
+                    "id": 1,
+                    "todo": "Pound out the meat slices really thin. "
+                },
+                {
+                    "id": 2,
+                    "todo": "Season with salt & pepper."
+                },
+                {
+                    "id": 3,
+                    "todo": "Crack the eggs into a deep plate & whisk them lightly."
+                },
+                {
+                    "id": 4,
+                    "todo": "Pour wheat flour & breadcrumbs into two other deep plates."
+                },
+                {
+                    "id": 5,
+                    "todo": "Turn the meat slices in flour, then in egg & finally in breadcrumbs."
+                },
+                {
+                    "id": 6,
+                    "todo": "Fry them in plenty of butter & oil for about 4 minutes per side."
+                },
+                {
+                    "id": 7,
+                    "todo": "Serve immediately"
+                },
+                {
+                    "id": 8,
+                    "todo": "Feel free to serve with, for example, wedged potatoes"
+                }
+            ]
         },
         {
             "id": 3,
@@ -320,15 +639,15 @@
             "name": "Pizza Margherita",
             "recipe": [
                 {
-                    "i_id": 1, 
+                    "i_id": 1,
                     "quantity": "12 cup"
                 },
                 {
                     "i_id": 2,
                     "quantity": "2 tsp"
-                } ,
+                },
                 {
-                    "i_id": 3, 
+                    "i_id": 3,
                     "quantity": "2 tsp"
                 },
                 {
@@ -336,7 +655,7 @@
                     "quantity": "1 tbsp"
                 },
                 {
-                    "i_id": 26, 
+                    "i_id": 26,
                     "quantity": "1/2 cup"
                 },
                 {
@@ -344,7 +663,7 @@
                     "quantity": "50 g"
                 },
                 {
-                    "i_id": 41, 
+                    "i_id": 41,
                     "quantity": "7300 g"
                 },
                 {
@@ -355,16 +674,89 @@
                     "i_id": 44,
                     "quantity": "1"
                 }
-  
+            ],
+            "instructions": [
+                {
+                    "id": 1,
+                    "todo": "Pizza Dough: Crumble the yeast in a dough bowl. "
+                },
+                {
+                    "id": 2,
+                    "todo": "Add water, butter & canola oil, flour & salt."
+                },
+                {
+                    "id": 3,
+                    "todo": "Work to a smooth & shiny dough, preferably in a machine."
+                },
+                {
+                    "id": 4,
+                    "todo": "Cover the dough with plastic wrap & leave to rise for about 45 minutes."
+                },
+                {
+                    "id": 5,
+                    "todo": "Long-baked tomatoes: Heat the oven to 175° "
+                },
+                {
+                    "id": 6,
+                    "todo": "Halve the tomatoes & place in a baking dish."
+                },
+                {
+                    "id": 7,
+                    "todo": "Drizzle over oil, salt & sugar."
+                },
+                {
+                    "id": 8,
+                    "todo": "Cook on high in the oven for approx. 45 min."
+                },
+                {
+                    "id": 9,
+                    "todo": "Tomato sauce: Put the tomatoes in a bowl & crush them with your hand."
+                },
+                {
+                    "id": 10,
+                    "todo": "Mix with olive oil, oregano & salt."
+                },
+                {
+                    "id": 11,
+                    "todo": "Pizza: Raise the oven heat to 225°."
+                },
+                {
+                    "id": 12,
+                    "todo": "Place a tray in the oven so it gets hot."
+                },
+                {
+                    "id": 13,
+                    "todo": "Divide the dough into 4 pieces."
+                },
+                {
+                    "id": 14,
+                    "todo": "Roll out on baking paper."
+                },
+                {
+                    "id": 15,
+                    "todo": "Spread on tomato sauce & sprinkle with grated mozzarella."
+                },
+                {
+                    "id": 16,
+                    "todo": "Transfer the pizza to the hot plate & bake each pizza for about 10 minutes."
+                },
+                {
+                    "id": 17,
+                    "todo": "Divide the buffalo mozzarella & distribute on the pizzas."
+                },
+                {
+                    "id": 18,
+                    "todo": "Top pizza Margherita with long-baked tomatoes & fresh basil."
+                }
             ]
         },
         {
             "id": 4,
-            "image": "/images/potatoes-saosage.jpg",
+            "image": "/images/potatoes-sausage.jpg",
             "name": "Sweet potatoes with sausage",
             "recipe": [
                 {
-                    "i_id": 4, 
+                    "i_id": 4,
                     "quantity": "3 tsp"
                 },
                 {
@@ -399,19 +791,73 @@
                     "i_id": 54,
                     "quantity": "800 g"
                 }
+            ],
+            "instructions": [
+                {
+                    "id": 1,
+                    "todo": "Set the oven to 225°."
+                },
+                {
+                    "id": 2,
+                    "todo": "Rinse & wash the sweet potatoes."
+                },
+                {
+                    "id": 3,
+                    "todo": "Split & divide into pieces."
+                },
+                {
+                    "id": 4,
+                    "todo": "Peel & cut the carrots into pieces."
+                },
+                {
+                    "id": 5,
+                    "todo": "Wash & slice the squash into half moons.  "
+                },
+                {
+                    "id": 6,
+                    "todo": "Peel & slice the garlic cloves."
+                },
+                {
+                    "id": 7,
+                    "todo": "Core & dice the peppers."
+                },
+                {
+                    "id": 8,
+                    "todo": "Spread the vegetables in a baking pan lined with baking paper."
+                },
+                {
+                    "id": 9,
+                    "todo": "Pour in oil and parsley, turn around a bit."
+                },
+                {
+                    "id": 10,
+                    "todo": "Roast just under the middle of the oven for about 15 minutes."
+                },
+                {
+                    "id": 11,
+                    "todo": "Rinse the beans, let them drain."
+                },
+                {
+                    "id": 12,
+                    "todo": "Take out the plate. "
+                },
+                {
+                    "id": 13,
+                    "todo": "Add sausages & beans, roast for another 15 minutes."
+                }
             ]
         },
         {
             "id": 5,
-            "image": "/images/fries_rice.jpg",
+            "image": "/images/fried_rice.jpg",
             "name": "Fried rice",
             "recipe": [
                 {
-                    "i_id": 8, 
+                    "i_id": 8,
                     "quantity": "2"
                 },
                 {
-                    "i_id": 19, 
+                    "i_id": 19,
                     "quantity": "1"
                 },
                 {
@@ -438,25 +884,77 @@
                     "i_id": 55,
                     "quantity": "3 cup"
                 }
-                
+            ],
+            "instructions": [
+                {
+                    "id": 1,
+                    "todo": "Cook the rice according to the instructions on the package."
+                },
+                {
+                    "id": 2,
+                    "todo": "Peel & cut thin sticks from the carrot.  "
+                },
+                {
+                    "id": 3,
+                    "todo": "Shred paprika & sugar snap peas."
+                },
+                {
+                    "id": 4,
+                    "todo": "Peel & finely chop the garlic."
+                },
+                {
+                    "id": 5,
+                    "todo": "Brown the butter for the dressing while stirring. "
+                },
+                {
+                    "id": 6,
+                    "todo": "Pour into a heat-resistant bowl & stir in the other ingredients."
+                },
+                {
+                    "id": 7,
+                    "todo": "Heat the cooking oil in a large frying pan."
+                },
+                {
+                    "id": 8,
+                    "todo": "Fry all vegetables with garlic and chili flakes on high heat for 2–3 min."
+                },
+                {
+                    "id": 9,
+                    "todo": "Add the rice and crack the eggs."
+                },
+                {
+                    "id": 10,
+                    "todo": "Fry while stirring until the eggs are set."
+                },
+                {
+                    "id": 11,
+                    "todo": "Mix in the dressing."
+                },
+                {
+                    "id": 12,
+                    "todo": "Top fried rice with coriander and roasted onions."
+                },
+                {
+                    "id": 13,
+                    "todo": "Serve immediately."
+                }
             ]
         }
     ],
-
-    "dessert":[
+    "dessert": [
         {
             "id": 1,
             "image": "/images/cheesecake.jpg",
             "name": "Cheesecake",
             "recipe": [
                 {
-                    "i_id": 5, 
+                    "i_id": 5,
                     "quantity": "1/2 cup"
                 },
                 {
                     "i_id": 8,
                     "quantity": "3"
-                } ,
+                },
                 {
                     "i_id": 7,
                     "quantity": "75 g"
@@ -477,15 +975,69 @@
                     "i_id": 59,
                     "quantity": "2 cup"
                 }
+            ],
+            "instructions": [
+                {
+                    "id": 1,
+                    "todo": "Mix or crush the biscuits finely.  "
+                },
+                {
+                    "id": 2,
+                    "todo": "Melt the butter & mix with the crumbs."
+                },
+                {
+                    "id": 3,
+                    "todo": "Press the mixture into the bottom of a round mold with a removable rim, approx. 24 cm in diameter."
+                },
+                {
+                    "id": 4,
+                    "todo": "Divide the eggs into yolks & whites."
+                },
+                {
+                    "id": 5,
+                    "todo": "Whisk the egg yolks, sugar & vanilla powder until fluffy in a bowl."
+                },
+                {
+                    "id": 6,
+                    "todo": "Stir in the cream cheese."
+                },
+                {
+                    "id": 7,
+                    "todo": "Whip the cream loosely. "
+                },
+                {
+                    "id": 8,
+                    "todo": "Beat the whites to a stiff foam."
+                },
+                {
+                    "id": 9,
+                    "todo": "First fold the cream & then the egg whites carefully into the cream cheese mixture."
+                },
+                {
+                    "id": 10,
+                    "todo": "Pour the batter into the mold. "
+                },
+                {
+                    "id": 11,
+                    "todo": "Cover with plastic film & leave in the freezer for at least 4 hours."
+                },
+                {
+                    "id": 12,
+                    "todo": "Take the cheesecake out about 15 minutes before serving."
+                },
+                {
+                    "id": 13,
+                    "todo": "Garnish with raspberries and lemon balm leaves."
+                }
             ]
         },
         {
             "id": 2,
-            "image": "/images/chocoloate-cake.jpg",
+            "image": "/images/chocolate-cake.jpg",
             "name": "Sticky chocolate cake",
             "recipe": [
                 {
-                    "i_id": 1, 
+                    "i_id": 1,
                     "quantity": "2 cup"
                 },
                 {
@@ -516,7 +1068,40 @@
                     "i_id": 62,
                     "quantity": "3 tbsp"
                 }
-                
+            ],
+            "instructions": [
+                {
+                    "id": 1,
+                    "todo": "Set the oven to 200°C."
+                },
+                {
+                    "id": 2,
+                    "todo": "Grease & line a mold with a removable rim, approx. 24 cm in diameter (for 8 pieces)."
+                },
+                {
+                    "id": 3,
+                    "todo": "Melt the butter in a saucepan, let cool slightly."
+                },
+                {
+                    "id": 4,
+                    "todo": "Whisk eggs & sugar together (do not use an electric whisk)."
+                },
+                {
+                    "id": 5,
+                    "todo": "Mix cocoa, vanilla sugar, wheat flour & salt in a bowl & stir into the egg mixture."
+                },
+                {
+                    "id": 6,
+                    "todo": "Add the melted butter & gently mix to a smooth batter."
+                },
+                {
+                    "id": 7,
+                    "todo": "Pour the batter into the pan."
+                },
+                {
+                    "id": 7,
+                    "todo": "Bake in the middle of the oven for about 10-15 minutes."
+                }
             ]
         },
         {
@@ -525,7 +1110,7 @@
             "name": "Brownies",
             "recipe": [
                 {
-                    "i_id": 1, 
+                    "i_id": 1,
                     "quantity": "3 cup"
                 },
                 {
@@ -560,15 +1145,53 @@
                     "i_id": 64,
                     "quantity": "1/2 tsp"
                 }
+            ],
+            "instructions": [
+                {
+                    "id": 1,
+                    "todo": "Set the oven to 175°."
+                },
+                {
+                    "id": 2,
+                    "todo": "Place baking paper in a square shape, approx. 20x30 cm."
+                },
+                {
+                    "id": 3,
+                    "todo": "Chop the nuts. Melt the butter & stir in the cocoa."
+                },
+                {
+                    "id": 4,
+                    "todo": "Mix eggs & sugar in a bowl."
+                },
+                {
+                    "id": 5,
+                    "todo": "Stir in the cocoa mixture, salt, vanilla sugar, nuts & the flour mixed with baking powder."
+                },
+                {
+                    "id": 6,
+                    "todo": "Spread the batter in the mold."
+                },
+                {
+                    "id": 7,
+                    "todo": "Bake in the middle of the oven for 20-25 min."
+                },
+                {
+                    "id": 8,
+                    "todo": "Let cool & cut the cake into squares."
+                },
+                {
+                    "id": 9,
+                    "todo": "Store in refrigerator."
+                }
             ]
         },
         {
             "id": 4,
             "image": "/images/coconut-passion-ice-cream.jpg",
-            "name": "Coconut with passion fruit and ice cream",
+            "name": "Passion fruit with ice cream",
             "recipe": [
                 {
-                    "i_id": 5, 
+                    "i_id": 5,
                     "quantity": "3 tbsp"
                 },
                 {
@@ -587,6 +1210,32 @@
                     "i_id": 69,
                     "quantity": "1/2 l "
                 }
+            ],
+            "instructions": [
+                {
+                    "id": 1,
+                    "todo": "Fry the coconut in butter & sugar over medium heat until golden."
+                },
+                {
+                    "id": 2,
+                    "todo": "Place on a tray lined with baking paper."
+                },
+                {
+                    "id": 3,
+                    "todo": "Let cool."
+                },
+                {
+                    "id": 4,
+                    "todo": "Split and pit the passion fruit."
+                },
+                {
+                    "id": 5,
+                    "todo": "Put half of the coconut in the bottom of 4 glasses (for 4 port)."
+                },
+                {
+                    "id": 6,
+                    "todo": "Top with ice cream, passion fruit & the rest of the coconut."
+                }
             ]
         },
         {
@@ -595,7 +1244,7 @@
             "name": "Chocolate dessert",
             "recipe": [
                 {
-                    "i_id": 59, 
+                    "i_id": 59,
                     "quantity": "3 cup"
                 },
                 {
@@ -606,14 +1255,72 @@
                     "i_id": 66,
                     "quantity": "3 cup"
                 }
+            ],
+            "instructions": [
+                {
+                    "id": 1,
+                    "todo": "Boil half of the whipped cream in a pan."
+                },
+                {
+                    "id": 2,
+                    "todo": "Break the chocolate into pieces"
+                },
+                {
+                    "id": 3,
+                    "todo": "remove the saucepan from the heat & let the chocolate melt in the cream."
+                },
+                {
+                    "id": 4,
+                    "todo": "Allow to cool completely."
+                },
+                {
+                    "id": 5,
+                    "todo": "Whip the other half of the cream until it is wonderfully fluffy."
+                },
+                {
+                    "id": 6,
+                    "todo": "Fold the chocolate cream into the whipped cream & stir gently."
+                },
+                {
+                    "id": 7,
+                    "todo": "Whip the cream to serve again until a firm fluff. "
+                },
+                {
+                    "id": 8,
+                    "todo": "Add a pinch of baking powder for firm & nice whipped cream."
+                },
+                {
+                    "id": 9,
+                    "todo": "Put half a deciliter of jam in the bottom of each glass."
+                },
+                {
+                    "id": 10,
+                    "todo": "Fill a piping bag with whipped cream and sprinkle a little on top of the jam"
+                },
+                {
+                    "id": 11,
+                    "todo": "Distribute the chocolate mousse & top with whipped cream"
+                },
+                {
+                    "id": 12,
+                    "todo": "A few drops of jam"
+                },
+                {
+                    "id": 13,
+                    "todo": "chopped chocolate or sprinkles."
+                },
+                {
+                    "id": 14,
+                    "todo": "Serve immediately or refrigerate for a while."
+                }
             ]
+
         }
     ],
-    
     "ingredients": [
         {
             "id": 1,
-            "name": "Flour"   
+            "name": "Flour"
         },
         {
             "id": 2,
@@ -779,7 +1486,7 @@
             "id": 42,
             "name": "Powdered sugar"
         },
-        {  
+        {
             "id": 43,
             "name": "Sugar"
         },
@@ -888,4 +1595,4 @@
             "name": "Vanilla ice cream"
         }
     ]
-  }
+}

@@ -1,5 +1,11 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background: linear-gradient(rgb(200, 200, 200), rgb(76, 56, 76));
+    background-color: #fef7f3;
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
@@ -11,53 +17,144 @@ header {
     display: flex;
     flex-direction: column;
     text-align: center;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    max-width: 900px;
-}
-
-main div {
-    display: flex;
-    justify-content: center;
-    margin: 0 20px;
-    flex-wrap: wrap;
-    background-color: darkgray;
+    margin: 5px auto;
+    background-color: #fdecd4;
     border-radius: 5px;
+    max-width: 800px;
 }
 
-main section {
-    justify-content: center;
-    align-items: center;
+h1 {
+    color: rgba(250, 128, 114, 0.693);
+    background-color: rgba(245, 222, 179, 0.344);
+}
+
+header p {
+    text-decoration: underline;
+    font-family: cursive;
+    margin: 5px 0;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    border-style: double;
+    border-width: 1px;
+    margin: auto;
 }
 
 #chooise {
     display: flex;
     flex-direction: column;
+    margin: 5px 0;
 }
 
-#starterCourse,
-#dinnerCourse,
-#dessertCourse {
+header div {
+    display: flex;
+    justify-content: center;
+    margin: 2px 15px;
+    padding: 2px;
+    flex-wrap: wrap;
+    border-radius: 5px;
+}
+
+.coursechooise {
     display: flex;
     flex-direction: column;
+}
+
+.starterDish {
+    background-color: wheat;
+    border-radius: 5px;
+}
+
+.dinnerDish {
+    background-color: rgba(245, 222, 179, 0.656);
+    border-radius: 5px;
+}
+
+.dessertDish {
+    background-color: rgba(245, 222, 179, 0.489);
+    border-radius: 5px;
+}
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+h3 {
+    color: rgba(70, 131, 180, 0.775)
+}
+
+.dishname {
+    color: thistle;
+    margin: 5px 0;
+}
+
+main .showdish {
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+main .displayrecipe {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    color: lightsteelblue;
+    font-family: cursive;
+}
+
+.ingredientsdiv, .instructionsdiv{
+    margin: 5px auto;
+}
+
+.displayrecipe ul, ol {
+    margin: auto;
+    padding: 0 5px;
 }
 
 button {
     width: 100px;
     margin: 2px 0;
+    border-radius: 20px;
+    background-color: rgba(234, 221, 197, 0.823);
 }
 
-#selectedRecipes {
+.showdish li {
+    list-style: none;
+    padding: 1px;
+    font-size: 14px;
+}
+
+footer {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5px;
 }
 
-#selectedRecipes div {
-    margin: 5px 0;
+footer section {
     flex-direction: column;
     background-color: antiquewhite;
+    margin: 0 20px;
+    padding: 10px;
+    flex-wrap: wrap;
+    border-radius: 5px;
+}
+
+#shoppinglist li {
+    list-style: none;
+    padding: 1px;
+    font-family: cursive;
+    font-size: 10px;
 }

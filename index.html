@@ -12,89 +12,132 @@
 </head>
 
 <body>
-    <header>
-        <h1>Three-course Recipes</h1>
-    </header>
-    <main id="app">
-        <section id="chooise">
-            <h2>Choose</h2>
-            <p>Make your own combination of five different
-                starters, dinners and desserts.</p>
-        </section>
-        <div>
-            <section id="starterCourse">
-                <h3>Starters</h3>
-                <span v-if="currentStarter" :key="currentStarter.id">{{ currentStarter.name }}</span>
-                <div>
-                    <button @click="prev('starter')">Previous</button>
-                    <button @click="next('starter')">Next</button>
-                </div>
+    <div id="app">
+        <header>
+            <h1>Three-course Recipes</h1>
+            <section id="chooise">
+                <h2>Select your three-course</h2>
+                <p>Make your own combination of five different
+                    starters, dinners and desserts.</p>
             </section>
-            <section id="dinnerCourse">
-                <h3>Main Dinners</h3>
-                <span v-if="currentDinner" :key="currentDinner.id">{{ currentDinner.name }}</span>
-                <div>
-                    <button @click="prev('dinner')">Previous</button>
-                    <button @click="next('dinner')">Next</button>
-                </div>
-            </section>
-            <section id="dessertCourse">
-                <h3>Desserts</h3>
-                <span v-if="currentDessert" :key="currentDessert.id">{{ currentDessert.name }}</span>
-                <div>
-                    <button @click="prev('dessert')">Previous</button>
-                    <button @click="next('dessert')">Next</button>
-                </div>
-            </section>
-        </div>
-        <div>
-            <button @click="recipesbtn">Go to recipes</button>
-        </div>
-
-        <section id="selectedRecipes">
-            <h2>Selected Recipes</h2>
-            <div v-if="selectedRecipes.starter">
+            <div>
+                <section id="starterCourse" class="coursechooise starterDish">
+                    <h3>Starters</h3>
+                    <img v-if="currentStarter" :src="currentStarter.image" :alt="currentStarter.name">
+                    <span v-if="currentStarter" :key="currentStarter.id" class="dishname"> {{ currentStarter.name
+                        }}</span>
+                    <div>
+                        <button @click="prev('starter')">Previous</button>
+                        <button @click="next('starter')">Next</button>
+                    </div>
+                </section>
+                <section id="dinnerCourse" class="coursechooise dinnerDish">
+                    <h3>Main Dinners</h3>
+                    <img v-if="currentDinner" :src="currentDinner.image" :alt="currentDinner.name">
+                    <span v-if="currentDinner" :key="currentDinner.id" class="dishname">{{ currentDinner.name }}</span>
+                    <div>
+                        <button @click="prev('dinner')">Previous</button>
+                        <button @click="next('dinner')">Next</button>
+                    </div>
+                </section>
+                <section id="dessertCourse" class="coursechooise dessertDish">
+                    <h3>Desserts</h3>
+                    <img v-if="currentDessert" :src="currentDessert.image" :alt="currentDessert.name">
+                    <span v-if="currentDessert" :key="currentDessert.id" class="dishname">{{ currentDessert.name
+                        }}</span>
+                    <div>
+                        <button @click="prev('dessert')">Previous</button>
+                        <button @click="next('dessert')">Next</button>
+                    </div>
+                </section>
+            </div>
+            <div>
+                <button @click="recipesbtn">Select recipes</button>
+            </div>
+        </header>
+        <main>
+            <section v-if="selectedRecipes.starter" class="showdish starterDish">
                 <h3>Starter</h3>
-                <h4>{{ selectedRecipes.starter.name }}</h4>
-                <ul>
-                    <li v-for="ingredient in selectedRecipes.starter.recipe" :key="ingredient.i_id">
-                        {{ getIngredients(ingredient.i_id).name }} {{ ingredient.quantity }}
-                    </li>
-                </ul>
-            </div>
-            <div v-if="selectedRecipes.dinner">
+                <img v-if="selectedRecipes.starter" :src="selectedRecipes.starter.image"
+                    :alt="selectedRecipes.starter.name">
+                <h4 class="dishname">{{ selectedRecipes.starter.name }}</h4>
+                <div class="displayrecipe">
+                    <div class="ingredientsdiv">
+                        <h5>Ingredients</h5>
+                        <ul>
+                            <li v-for="ingredient in selectedRecipes.starter.recipe" :key="ingredient.i_id">
+                                {{ getIngredients(ingredient.i_id).name }} {{ ingredient.quantity }}
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="instructionsdiv">
+                        <h5>Instructions</h5>
+                        <ol>
+                            <li v-for="instruction in selectedRecipes.starter.instructions" :key="instruction.id">{{
+                                instruction.todo }}</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+            <section v-if="selectedRecipes.dinner" class="showdish dinnerDish">
                 <h3>Dinner</h3>
-                <h4>{{ selectedRecipes.dinner.name }}</h4>
-                <ul>
-                    <li v-for="ingredient in selectedRecipes.dinner.recipe" :key="ingredient.i_id">
-                        {{ getIngredients(ingredient.i_id).name }} {{ ingredient.quantity }}
-                    </li>
-                </ul>
-            </div>
-            <div v-if="selectedRecipes.dessert">
+                <img v-if="selectedRecipes.dinner" :src="selectedRecipes.dinner.image"
+                    :alt="selectedRecipes.dinner.name">
+                <h4 class="dishname">{{ selectedRecipes.dinner.name }}</h4>
+                <div class="displayrecipe">
+                    <div class="ingredientsdiv">
+                        <h5>Ingredients</h5>
+                        <ul>
+                            <li v-for="ingredient in selectedRecipes.dinner.recipe" :key="ingredient.i_id">
+                                {{ getIngredients(ingredient.i_id).name }} {{ ingredient.quantity }}
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="instructionsdiv">
+                        <h5>Instructions</h5>
+                        <ol>
+                            <li v-for="instruction in selectedRecipes.dinner.instructions" :key="instruction.id">{{
+                                instruction.todo }}</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+            <section v-if="selectedRecipes.dessert" class="showdish dessertDish">
                 <h3>Dessert</h3>
-                <h4>{{ selectedRecipes.dessert.name }}</h4>
+                <img v-if="selectedRecipes.dessert" :src="selectedRecipes.dessert.image"
+                    :alt="selectedRecipes.dessert.name">
+                <h4 class="dishname">{{ selectedRecipes.dessert.name }}</h4>
+                <div class="displayrecipe">
+                    <div class="ingredientsdiv">
+                        <h5>Ingredients</h5>
+                        <ul>
+                            <li v-for="ingredient in selectedRecipes.dessert.recipe" :key="ingredient.i_id">
+                                {{ getIngredients(ingredient.i_id).name }} {{ ingredient.quantity }}
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="instructionsdiv">
+                        <h5>Instructions</h5>
+                        <ol>
+                            <li v-for="instruction in selectedRecipes.dessert.instructions" :key="instruction.id">{{
+                                instruction.todo }}</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <footer>
+            <section v-if="selectedRecipes.shoppingList" id="shoppinglist">
+                <h6>Shopping List</h6>
                 <ul>
-                    <li v-for="ingredient in selectedRecipes.dessert.recipe" :key="ingredient.i_id">
-                        {{ getIngredients(ingredient.i_id).name }} {{ ingredient.quantity }}
+                    <li v-for="shopping in currentShoppingList" key="shopping.i_id">
+                        {{ getIngredients(shopping.i_id).name }}
                     </li>
                 </ul>
-            </div>
-            </div>
-        </section>
-
-        <section v-if="selectedRecipes.shoppingList">
-            <h4>Shopping List</h4>
-            <ul>
-                <li v-for="shopping in currentShoppingList" key="shopping.i_id">
-                    {{ getIngredients(shopping.i_id).name }}
-                </li>
-            </ul>
-        </section>
-    </main>
-    <footer>
-
-    </footer>
+            </section>
+        </footer>
+    </div>
     <script src="threecourse.js"></script>
 </body>
 
