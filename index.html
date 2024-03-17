@@ -27,8 +27,8 @@
                     <span v-if="currentStarter" :key="currentStarter.id" class="dishname"> {{ currentStarter.name
                         }}</span>
                     <div>
-                        <button @click="prev('starter')">Previous</button>
-                        <button @click="next('starter')">Next</button>
+                        <button @click="prev('starter')" class="prevbtn">Previous</button>
+                        <button @click="next('starter')" class="nextbtn">Next</button>
                     </div>
                 </section>
                 <section id="dinnerCourse" class="coursechooise dinnerDish">
@@ -36,8 +36,8 @@
                     <img v-if="currentDinner" :src="currentDinner.image" :alt="currentDinner.name">
                     <span v-if="currentDinner" :key="currentDinner.id" class="dishname">{{ currentDinner.name }}</span>
                     <div>
-                        <button @click="prev('dinner')">Previous</button>
-                        <button @click="next('dinner')">Next</button>
+                        <button @click="prev('dinner')" class="prevbtn">Previous</button>
+                        <button @click="next('dinner')" class="nextbtn">Next</button>
                     </div>
                 </section>
                 <section id="dessertCourse" class="coursechooise dessertDish">
@@ -46,13 +46,13 @@
                     <span v-if="currentDessert" :key="currentDessert.id" class="dishname">{{ currentDessert.name
                         }}</span>
                     <div>
-                        <button @click="prev('dessert')">Previous</button>
-                        <button @click="next('dessert')">Next</button>
+                        <button @click="prev('dessert')" class="prevbtn">Previous</button>
+                        <button @click="next('dessert')" class="nextbtn">Next</button>
                     </div>
                 </section>
             </div>
             <div>
-                <button @click="recipesbtn">Select recipes</button>
+                <button @click="recipesbtn" id="selectbtn">Select recipes</button>
             </div>
         </header>
         <main>
