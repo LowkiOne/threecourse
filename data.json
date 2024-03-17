@@ -71,7 +71,7 @@
         },
         {
             "id": 2,
-            "image": "/images/broccolipaj.jpg",
+            "image": "images/broccolipaj.jpg",
             "name": "Broccoli pie",
             "recipe": [
                 {
@@ -196,7 +196,7 @@
         },
         {
             "id": 3,
-            "image": "/images/spring-rolls.jpg",
+            "image": "images/spring-rolls.jpg",
             "name": "Spring rolls with peanut dip",
             "recipe": [
                 {
@@ -293,7 +293,7 @@
         },
         {
             "id": 4,
-            "image": "/images/brusch-mushroom.jpg",
+            "image": "images/brusch-mushroom.jpg",
             "name": "Mushroom bruschetta",
             "recipe": [
                 {
@@ -374,7 +374,7 @@
         },
         {
             "id": 5,
-            "image": "/images/gyoza.jpg",
+            "image": "images/gyoza.jpg",
             "name": "Nanami gyoza",
             "recipe": [
                 {
@@ -489,7 +489,7 @@
     "dinner": [
         {
             "id": 1,
-            "image": "/images/lasagna-soup.jpg",
+            "image": "images/lasagna-soup.jpg",
             "name": "Lasagna soup",
             "recipe": [
                 {
@@ -566,7 +566,7 @@
         },
         {
             "id": 2,
-            "image": "/images/schnitzel.jpg",
+            "image": "images/schnitzel.jpg",
             "name": "Schnitzel",
             "recipe": [
                 {
@@ -635,7 +635,7 @@
         },
         {
             "id": 3,
-            "image": "/images/pizza.jpg",
+            "image": "images/pizza.jpg",
             "name": "Pizza Margherita",
             "recipe": [
                 {
@@ -752,7 +752,7 @@
         },
         {
             "id": 4,
-            "image": "/images/potatoes-sausage.jpg",
+            "image": "images/potatoes-sausage.jpg",
             "name": "Sweet potatoes with sausage",
             "recipe": [
                 {
@@ -849,7 +849,7 @@
         },
         {
             "id": 5,
-            "image": "/images/fried_rice.jpg",
+            "image": "images/fried_rice.jpg",
             "name": "Fried rice",
             "recipe": [
                 {
@@ -944,7 +944,7 @@
     "dessert": [
         {
             "id": 1,
-            "image": "/images/cheesecake.jpg",
+            "image": "images/cheesecake.jpg",
             "name": "Cheesecake",
             "recipe": [
                 {
@@ -1033,7 +1033,7 @@
         },
         {
             "id": 2,
-            "image": "/images/chocolate-cake.jpg",
+            "image": "images/chocolate-cake.jpg",
             "name": "Sticky chocolate cake",
             "recipe": [
                 {
@@ -1106,7 +1106,7 @@
         },
         {
             "id": 3,
-            "image": "/images/brownies.jpg",
+            "image": "images/brownies.jpg",
             "name": "Brownies",
             "recipe": [
                 {
@@ -1187,7 +1187,7 @@
         },
         {
             "id": 4,
-            "image": "/images/coconut-passion-ice-cream.jpg",
+            "image": "images/coconut-passion-ice-cream.jpg",
             "name": "Passion fruit with ice cream",
             "recipe": [
                 {
@@ -1240,7 +1240,7 @@
         },
         {
             "id": 5,
-            "image": "/images/chocolate-dessert.jpg",
+            "image": "images/chocolate-dessert.jpg",
             "name": "Chocolate dessert",
             "recipe": [
                 {
