@@ -20,7 +20,7 @@ header {
     margin: 5px auto;
     background-color: #fdecd4;
     border-radius: 5px;
-    max-width: 736px;
+    max-width: 900px;
 }
 
 h1 {
@@ -36,7 +36,7 @@ header p {
 
 img {
     height: 200px;
-    width: 200px;
+    width: 240px;
     border-radius: 5px;
     border-style: double;
     border-width: 1px;
@@ -78,6 +78,20 @@ header div {
     border-radius: 5px;
 }
 
+.dropdown {
+    text-align: center;
+    width: 240px;
+    padding: 10px;
+    font-size: 13px;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    background-color: #fdecd4;
+}
+
+.dropdown option {
+    background-color: #fdecd4;
+    color: black;
+}
 
 main {
     display: flex;
@@ -86,6 +100,7 @@ main {
     text-align: center;
     justify-content: center;
     align-items: flex-start;
+    margin: none;
 }
 
 h3 {
@@ -93,13 +108,12 @@ h3 {
 }
 
 .dishname {
-    color: thistle;
     margin: 5px 0;
 }
 
 main .showdish {
     flex-direction: column;
-    margin: 10px;
+    margin: 5px auto;
     padding: 10px;
     justify-content: center;
     border-radius: 5px;
@@ -110,7 +124,7 @@ main .displayrecipe {
     flex-direction: row;
     flex-wrap: wrap;
     padding: 10px;
-    color: lightsteelblue;
+    color: black;
     font-family: cursive;
 }
 
@@ -126,7 +140,8 @@ ol {
 }
 
 button {
-    width: 100px;
+    width: 150px;
+    padding: 10px;
     margin: 2px 0;
     border-radius: 20px;
     background-color: rgba(234, 221, 197, 0.823);

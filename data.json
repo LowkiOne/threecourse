@@ -7,35 +7,35 @@
             "recipe": [
                 {
                     "i_id": 3,
-                    "quantity": "1/2 tsp"
+                    "quantity": 5
                 },
                 {
                     "i_id": 7,
-                    "quantity": "2 tsp"
+                    "quantity": 20
                 },
                 {
                     "i_id": 11,
-                    "quantity": "1 pinch"
+                    "quantity": 2
                 },
                 {
                     "i_id": 27,
-                    "quantity": "2"
+                    "quantity": 20
                 },
                 {
                     "i_id": 26,
-                    "quantity": "2 tsp"
+                    "quantity": 20
                 },
                 {
                     "i_id": 29,
-                    "quantity": "4"
+                    "quantity": 40
                 },
                 {
                     "i_id": 33,
-                    "quantity": "15 g"
+                    "quantity": 15
                 },
                 {
                     "i_id": 35,
-                    "quantity": "1"
+                    "quantity": 10
                 }
             ],
             "instructions": [
@@ -76,43 +76,43 @@
             "recipe": [
                 {
                     "i_id": 1,
-                    "name": "1/2 dl"
+                    "quantity": 5
                 },
                 {
                     "i_id": 3,
-                    "quantity": "1 tsp"
+                    "quantity": 10
                 },
                 {
                     "i_id": 4,
-                    "quantity": "3 cup"
+                    "quantity": 300
                 },
                 {
                     "i_id": 7,
-                    "quantity": "125 g"
+                    "quantity": 125
                 },
                 {
                     "i_id": 8,
-                    "quantity": "4"
+                    "quantity": 40
                 },
                 {
                     "i_id": 9,
-                    "quantity": "1 dl"
+                    "quantity": 100
                 },
                 {
                     "i_id": 10,
-                    "quantity": "2 1/2 cup"
+                    "quantity": 250
                 },
                 {
                     "i_id": 11,
-                    "quantity": "2 tsp"
+                    "quantity": 20
                 },
                 {
                     "i_id": 12,
-                    "quantity": "1 cup"
+                    "quantity": 100
                 },
                 {
                     "i_id": 13,
-                    "quantity": "150 g"
+                    "quantity": 150
                 }
             ],
             "instructions": [
@@ -201,43 +201,43 @@
             "recipe": [
                 {
                     "i_id": 2,
-                    "quantity": "1 cup "
+                    "quantity": 100
                 },
                 {
                     "i_id": 15,
-                    "quantity": "1/2 cup"
+                    "quantity": 50
                 },
                 {
                     "i_id": 16,
-                    "quantity": "1/2 cup"
+                    "quantity": 50
                 },
                 {
                     "i_id": 13,
-                    "quantity": "3 tbsp"
+                    "quantity": 30
                 },
                 {
                     "i_id": 18,
-                    "quantity": "230 g"
+                    "quantity": 230
                 },
                 {
                     "i_id": 19,
-                    "quantity": "2"
+                    "quantity": 20
                 },
                 {
                     "i_id": 20,
-                    "quantity": "2"
+                    "quantity": 20
                 },
                 {
                     "i_id": 21,
-                    "quantity": "125 g"
+                    "quantity": 125
                 },
                 {
                     "i_id": 22,
-                    "quantity": "180 g"
+                    "quantity": 180
                 },
                 {
                     "i_id": 23,
-                    "quantity": "20 g"
+                    "quantity": 20
                 }
             ],
             "instructions": [
@@ -298,39 +298,39 @@
             "recipe": [
                 {
                     "i_id": 3,
-                    "quantity": "1/2 tsp"
+                    "quantity": 5
                 },
                 {
                     "i_id": 4,
-                    "quantity": "2 tsp"
+                    "quantity": 20
                 },
                 {
                     "i_id": 7,
-                    "quantity": "1 tbsp"
+                    "quantity": 10
                 },
                 {
                     "i_id": 11,
-                    "quantity": "1 pinch"
+                    "quantity": 2
                 },
                 {
                     "i_id": 13,
-                    "quantity": "1 cup"
+                    "quantity": 100
                 },
                 {
                     "i_id": 36,
-                    "quantity": "300 g"
+                    "quantity": 300
                 },
                 {
                     "i_id": 37,
-                    "quantity": "20"
+                    "quantity": 20
                 },
                 {
                     "i_id": 38,
-                    "quantity": "1/2 cup"
+                    "quantity": 50
                 },
                 {
                     "i_id": 39,
-                    "quantity": "1"
+                    "quantity": 10
                 }
             ],
             "instructions": [
@@ -379,43 +379,43 @@
             "recipe": [
                 {
                     "i_id": 3,
-                    "quantity": "1 tsp"
+                    "quantity": 10
                 },
                 {
                     "i_id": 21,
-                    "quantity": "3"
+                    "quantity": 30
                 },
                 {
                     "i_id": 27,
-                    "quantity": "1"
+                    "quantity": 10
                 },
                 {
                     "i_id": 31,
-                    "quantity": "1 tsp"
+                    "quantity": 10
                 },
                 {
                     "i_id": 42,
-                    "quantity": "1 tsp"
+                    "quantity": 10
                 },
                 {
                     "i_id": 45,
-                    "quantity": "50 g"
+                    "quantity": 50
                 },
                 {
                     "i_id": 46,
-                    "quantity": "50 g"
+                    "quantity": 50
                 },
                 {
                     "i_id": 47,
-                    "quantity": "500 g"
+                    "quantity": 500
                 },
                 {
                     "i_id": 48,
-                    "quantity": "1 tsp"
+                    "quantity": 10
                 },
                 {
                     "i_id": 49,
-                    "quantity": "1 tsp"
+                    "quantity": 10
                 }
             ],
             "instructions": [
@@ -494,47 +494,47 @@
             "recipe": [
                 {
                     "i_id": 2,
-                    "quantity": "5 cup"
+                    "quantity": 500
                 },
                 {
                     "i_id": 3,
-                    "quantity": "2 tsp"
+                    "quantity": 20
                 },
                 {
                     "i_id": 11,
-                    "quantity": "2 tsp"
+                    "quantity": 20
                 },
                 {
                     "i_id": 13,
-                    "quantity": "2 cup"
+                    "quantity": 200
                 },
                 {
                     "i_id": 26,
-                    "quantity": "2 tsp"
+                    "quantity": 20
                 },
                 {
                     "i_id": 27,
-                    "quantity": "2"
+                    "quantity": 20
                 },
                 {
                     "i_id": 28,
-                    "quantity": "500 g"
+                    "quantity": 500
                 },
                 {
                     "i_id": 30,
-                    "quantity": "1"
+                    "quantity": 10
                 },
                 {
                     "i_id": 31,
-                    "quantity": "1 tsp"
+                    "quantity": 10
                 },
                 {
                     "i_id": 32,
-                    "quantity": "250 g"
+                    "quantity": 250
                 },
                 {
                     "i_id": 34,
-                    "quantity": "500 g"
+                    "quantity": 500
                 }
             ],
             "instructions": [
@@ -571,31 +571,31 @@
             "recipe": [
                 {
                     "i_id": 1,
-                    "quantity": "1 cup"
+                    "quantity": 100
                 },
                 {
                     "i_id": 3,
-                    "quantity": "2 tsp"
+                    "quantity": 20
                 },
                 {
                     "i_id": 8,
-                    "quantity": "2"
+                    "quantity": 20
                 },
                 {
                     "i_id": 11,
-                    "quantity": "1 pinch"
+                    "quantity": 2
                 },
                 {
                     "i_id": 24,
-                    "quantity": "500 g"
+                    "quantity": 500
                 },
                 {
                     "i_id": 25,
-                    "quantity": "panko "
+                    "quantity": 20
                 },
                 {
                     "i_id": 26,
-                    "quantity": "2 cup"
+                    "quantity": 200
                 }
             ],
             "instructions": [
@@ -640,39 +640,39 @@
             "recipe": [
                 {
                     "i_id": 1,
-                    "quantity": "12 cup"
+                    "quantity": 1200
                 },
                 {
                     "i_id": 2,
-                    "quantity": "2 tsp"
+                    "quantity": 20
                 },
                 {
                     "i_id": 3,
-                    "quantity": "2 tsp"
+                    "quantity": 20
                 },
                 {
                     "i_id": 4,
-                    "quantity": "1 tbsp"
+                    "quantity": 10
                 },
                 {
                     "i_id": 26,
-                    "quantity": "1/2 cup"
+                    "quantity": 50
                 },
                 {
                     "i_id": 40,
-                    "quantity": "50 g"
+                    "quantity": 50
                 },
                 {
                     "i_id": 41,
-                    "quantity": "7300 g"
+                    "quantity": 300
                 },
                 {
                     "i_id": 42,
-                    "quantity": "2 pinch"
+                    "quantity": 3
                 },
                 {
                     "i_id": 44,
-                    "quantity": "1"
+                    "quantity": 10
                 }
             ],
             "instructions": [
@@ -757,39 +757,39 @@
             "recipe": [
                 {
                     "i_id": 4,
-                    "quantity": "3 tsp"
+                    "quantity": 30
                 },
                 {
                     "i_id": 19,
-                    "quantity": "2"
+                    "quantity": 20
                 },
                 {
                     "i_id": 27,
-                    "quantity": "3"
+                    "quantity": 30
                 },
                 {
                     "i_id": 39,
-                    "quantity": "1/2 cup"
+                    "quantity": 50
                 },
                 {
                     "i_id": 50,
-                    "quantity": "900 g"
+                    "quantity": 900
                 },
                 {
                     "i_id": 51,
-                    "quantity": "1"
+                    "quantity": 10
                 },
                 {
                     "i_id": 52,
-                    "quantity": "2"
+                    "quantity": 20
                 },
                 {
                     "i_id": 53,
-                    "quantity": "400 g"
+                    "quantity": 400
                 },
                 {
                     "i_id": 54,
-                    "quantity": "800 g"
+                    "quantity": 800
                 }
             ],
             "instructions": [
@@ -854,35 +854,35 @@
             "recipe": [
                 {
                     "i_id": 8,
-                    "quantity": "2"
+                    "quantity": 20
                 },
                 {
                     "i_id": 19,
-                    "quantity": "1"
+                    "quantity": 10
                 },
                 {
                     "i_id": 26,
-                    "quantity": "2 tbsp"
+                    "quantity": 20
                 },
                 {
                     "i_id": 27,
-                    "quantity": "3"
+                    "quantity": 30
                 },
                 {
                     "i_id": 31,
-                    "quantity": "1 tsp"
+                    "quantity": 10
                 },
                 {
                     "i_id": 43,
-                    "quantity": "150 g"
+                    "quantity": 150
                 },
                 {
                     "i_id": 52,
-                    "quantity": "1"
+                    "quantity": 10
                 },
                 {
                     "i_id": 55,
-                    "quantity": "3 cup"
+                    "quantity": 300
                 }
             ],
             "instructions": [
@@ -949,31 +949,31 @@
             "recipe": [
                 {
                     "i_id": 5,
-                    "quantity": "1/2 cup"
+                    "quantity": 50
                 },
                 {
                     "i_id": 8,
-                    "quantity": "3"
+                    "quantity": 30
                 },
                 {
                     "i_id": 7,
-                    "quantity": "75 g"
+                    "quantity": 75
                 },
                 {
                     "i_id": 56,
-                    "quantity": "15"
+                    "quantity": 150
                 },
                 {
                     "i_id": 57,
-                    "quantity": "1 pinch"
+                    "quantity": 5
                 },
                 {
                     "i_id": 58,
-                    "quantity": "400 g"
+                    "quantity": 400
                 },
                 {
                     "i_id": 59,
-                    "quantity": "2 cup"
+                    "quantity": 200
                 }
             ],
             "instructions": [
@@ -1038,35 +1038,35 @@
             "recipe": [
                 {
                     "i_id": 1,
-                    "quantity": "2 cup"
+                    "quantity": 200
                 },
                 {
                     "i_id": 3,
-                    "quantity": "1 tsp"
+                    "quantity": 10
                 },
                 {
                     "i_id": 7,
-                    "quantity": "100 g"
+                    "quantity": 100
                 },
                 {
                     "i_id": 8,
-                    "quantity": "2"
+                    "quantity": 20
                 },
                 {
                     "i_id": 43,
-                    "quantity": "3 cup"
+                    "quantity": 300
                 },
                 {
                     "i_id": 60,
-                    "quantity": "3 tbsp"
+                    "quantity": 30
                 },
                 {
                     "i_id": 61,
-                    "quantity": "3 tsp"
+                    "quantity": 30
                 },
                 {
                     "i_id": 62,
-                    "quantity": "3 tbsp"
+                    "quantity": 30
                 }
             ],
             "instructions": [
@@ -1111,39 +1111,39 @@
             "recipe": [
                 {
                     "i_id": 1,
-                    "quantity": "3 cup"
+                    "quantity": 300
                 },
                 {
                     "i_id": 3,
-                    "quantity": "1 pinch"
+                    "quantity": 5
                 },
                 {
                     "i_id": 7,
-                    "quantity": "200 g"
+                    "quantity": 200
                 },
                 {
                     "i_id": 8,
-                    "quantity": "3"
+                    "quantity": 30
                 },
                 {
                     "i_id": 41,
-                    "quantity": "3 cup"
+                    "quantity": 300
                 },
                 {
                     "i_id": 61,
-                    "quantity": "2 tsp"
+                    "quantity": 20
                 },
                 {
                     "i_id": 62,
-                    "quantity": "1 cup"
+                    "quantity": 100
                 },
                 {
                     "i_id": 63,
-                    "quantity": "100 g"
+                    "quantity": 100
                 },
                 {
                     "i_id": 64,
-                    "quantity": "1/2 tsp"
+                    "quantity": 5
                 }
             ],
             "instructions": [
@@ -1192,23 +1192,23 @@
             "recipe": [
                 {
                     "i_id": 5,
-                    "quantity": "3 tbsp"
+                    "quantity": 30
                 },
                 {
                     "i_id": 7,
-                    "quantity": "3 tbsp"
+                    "quantity": 30
                 },
                 {
                     "i_id": 67,
-                    "quantity": "2 cup"
+                    "quantity": 200
                 },
                 {
                     "i_id": 68,
-                    "quantity": "2"
+                    "quantity": 20
                 },
                 {
                     "i_id": 69,
-                    "quantity": "1/2 l "
+                    "quantity": 500
                 }
             ],
             "instructions": [
@@ -1245,15 +1245,15 @@
             "recipe": [
                 {
                     "i_id": 59,
-                    "quantity": "3 cup"
+                    "quantity": 300
                 },
                 {
                     "i_id": 65,
-                    "quantity": "150 g"
+                    "quantity": 150
                 },
                 {
                     "i_id": 66,
-                    "quantity": "3 cup"
+                    "quantity": 300
                 }
             ],
             "instructions": [

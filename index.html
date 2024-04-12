@@ -5,10 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Three Course</title>
-    <link rel="icon" href="data:,">
+    <script src=" https://cdn.jsdelivr.net/npm/vue@3.4.21/dist/vue.global.min.js "></script>
     <link rel="stylesheet" href="style.css">
-    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-
 </head>
 
 <body>
@@ -24,30 +22,34 @@
                 <section id="starterCourse" class="coursechooise starterDish">
                     <h3>Starters</h3>
                     <img v-if="currentStarter" :src="currentStarter.image" :alt="currentStarter.name">
-                    <span v-if="currentStarter" :key="currentStarter.id" class="dishname"> {{ currentStarter.name
-                        }}</span>
                     <div>
-                        <button @click="prev('starter')" class="prevbtn">Previous</button>
-                        <button @click="next('starter')" class="nextbtn">Next</button>
+                        <select class="dropdown" v-model="currentIndex.starter"
+                            @change="changeCourse('starter', $event.target.value)">
+                            <option v-for="(starter, index) in threeCourse.starter" :value="index">{{ starter.name }}
+                            </option>
+                        </select>
                     </div>
                 </section>
                 <section id="dinnerCourse" class="coursechooise dinnerDish">
                     <h3>Main Dinners</h3>
                     <img v-if="currentDinner" :src="currentDinner.image" :alt="currentDinner.name">
-                    <span v-if="currentDinner" :key="currentDinner.id" class="dishname">{{ currentDinner.name }}</span>
                     <div>
-                        <button @click="prev('dinner')" class="prevbtn">Previous</button>
-                        <button @click="next('dinner')" class="nextbtn">Next</button>
+                        <select class="dropdown" v-model="currentIndex.dinner"
+                            @change="changeCourse('dinner', $event.target.value)">
+                            <option v-for="(dinner, index) in threeCourse.dinner" :value="index">{{ dinner.name }}
+                            </option>
+                        </select>
                     </div>
                 </section>
                 <section id="dessertCourse" class="coursechooise dessertDish">
                     <h3>Desserts</h3>
                     <img v-if="currentDessert" :src="currentDessert.image" :alt="currentDessert.name">
-                    <span v-if="currentDessert" :key="currentDessert.id" class="dishname">{{ currentDessert.name
-                        }}</span>
                     <div>
-                        <button @click="prev('dessert')" class="prevbtn">Previous</button>
-                        <button @click="next('dessert')" class="nextbtn">Next</button>
+                        <select class="dropdown" v-model="currentIndex.dessert"
+                            @change="changeCourse('dessert', $event.target.value)">
+                            <option v-for="(dessert, index) in threeCourse.dessert" :value="index">{{ dessert.name }}
+                            </option>
+                        </select>
                     </div>
                 </section>
             </div>
@@ -66,7 +68,7 @@
                         <h5>Ingredients</h5>
                         <ul>
                             <li v-for="ingredient in selectedRecipes.starter.recipe" :key="ingredient.i_id">
-                                {{ getIngredients(ingredient.i_id).name }} {{ ingredient.quantity }}
+                                {{ getIngredients(ingredient.i_id).name }} {{ ingredient.quantity }}g
                             </li>
                         </ul>
                     </div>
@@ -89,7 +91,7 @@
                         <h5>Ingredients</h5>
                         <ul>
                             <li v-for="ingredient in selectedRecipes.dinner.recipe" :key="ingredient.i_id">
-                                {{ getIngredients(ingredient.i_id).name }} {{ ingredient.quantity }}
+                                {{ getIngredients(ingredient.i_id).name }} {{ ingredient.quantity }}g
                             </li>
                         </ul>
                     </div>
@@ -112,7 +114,7 @@
                         <h5>Ingredients</h5>
                         <ul>
                             <li v-for="ingredient in selectedRecipes.dessert.recipe" :key="ingredient.i_id">
-                                {{ getIngredients(ingredient.i_id).name }} {{ ingredient.quantity }}
+                                {{ getIngredients(ingredient.i_id).name }} {{ ingredient.quantity }}g
                             </li>
                         </ul>
                     </div>
@@ -132,7 +134,7 @@
                 <h6>Shopping List</h6>
                 <ul>
                     <li v-for="shopping in currentShoppingList" key="shopping.i_id">
-                        {{ getIngredients(shopping.i_id).name }}
+                        {{ getIngredients(shopping.i_id).name }} {{ shopping.quantity }}g
                     </li>
                 </ul>
             </section>

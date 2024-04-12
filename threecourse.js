@@ -34,24 +34,26 @@ const app = Vue.createApp({
             const allRecipes = [this.selectedRecipes.starter, this.selectedRecipes.dinner, this.selectedRecipes.dessert];
             const allIngredients = allRecipes.flatMap(recipe => recipe ? recipe.recipe : []);
 
-            const uniqueIngredientsMap = new Map();
+            const ingredientQuantities = new Map();
             allIngredients.forEach(ingredient => {
-                if (!uniqueIngredientsMap.has(ingredient.i_id)) {
-                    uniqueIngredientsMap.set(ingredient.i_id, { ...ingredient });
+                if (ingredientQuantities.has(ingredient.i_id)) {
+                    ingredientQuantities.set(ingredient.i_id, ingredientQuantities.get(ingredient.i_id) + ingredient.quantity);
+                } else {
+                    ingredientQuantities.set(ingredient.i_id, ingredient.quantity);
                 }
             });
 
-            const uniqueIngredients = Array.from(uniqueIngredientsMap.values());
+            const uniqueIngredients = Array.from(ingredientQuantities.entries()).map(([i_id, quantity]) => {
+                const ingredient = allIngredients.find(ing => ing.i_id === i_id);
+                return { ...ingredient, quantity };
+            });
 
             return uniqueIngredients;
         }
     },
     methods: {
-        prev(type) {
-            this.currentIndex[type] = (this.currentIndex[type] - 1 + this.threeCourse[type].length) % this.threeCourse[type].length;
-        },
-        next(type) {
-            this.currentIndex[type] = (this.currentIndex[type] + 1) % this.threeCourse[type].length;
+        changeCourse(type, index) {
+            this.currentIndex[type] = index;
         },
         recipesbtn() {
             this.selectedRecipes = {
